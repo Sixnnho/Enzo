@@ -1,85 +1,1487 @@
 <!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقعي الشخصي - إنزو</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
-        body {
-            background: url('https://source.unsplash.com/1600x900/?technology,nature') no-repeat center center fixed;
-            background-size: cover;
-            text-align: center;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
-            animation: fadeIn 1.5s ease-in-out;
-        }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-        }
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-        .social-icons a {
-            display: inline-block;
-            width: 60px;
-            height: 60px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            transition: 0.3s;
-            transform: scale(1);
-        }
-        .social-icons a:hover {
-            background: rgba(255, 255, 255, 0.5);
-            transform: scale(1.2);
-        }
-        .social-icons img {
-            width: 35px;
-            height: 35px;
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-َ        }
-    </style>
-</head>
+<html prefix="og: http://ogp.me/ns#"  class="rtl load" dir="rtl" lang="ar" id="h" class="load" style="margin-top: 0px !important;overflow-x: hidden;">
+<head><meta charset="utf-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.6",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),this.CSPIssue=sessionStorage.getItem("rocketCSPIssue"),document.addEventListener("securitypolicyviolation",(t=>{this.CSPIssue||"script-src-elem"!==t.violatedDirective||"data"!==t.blockedURI||(this.CSPIssue=!0,sessionStorage.setItem("rocketCSPIssue",!0))})),document.addEventListener("DOMContentLoaded",(()=>{this.k()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}p(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.S(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.M()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.S(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.M()}O(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerWPRocketBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerWPRocketBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}D(){return new Promise((t=>{this.P?this.M=t:t()}))}C(){this.P=!0}M(){this.P=!1}S(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}k(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&!i.startsWith("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.T(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.j(this),this.F(this),this.I(),this.W(),this.q(),await this.A(this.delayedScripts.normal),await this.A(this.delayedScripts.defer),await this.A(this.delayedScripts.async);try{await this.U(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.D().then((()=>{this.O()})),this.N()}W(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor||this.CSPIssue)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed-network"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),s=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(i=>{this.CSPIssue&&i.target.src.startsWith("data:")?(console.log("WPRocket: data-uri blocked by CSP -> fallback"),t.removeAttribute("src"),this.B(t).then(e)):(t.setAttribute("data-rocket-status","failed-network"),e())})),s?(t.removeAttribute("data-rocket-src"),t.src=s):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed-transform"),e()}}));t.setAttribute("data-rocket-status","skipped")}async A(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.A(t)):Promise.resolve()}q(){this.T([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}T(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o&&!o.startsWith("data:")){const s=document.createElement("link");s.href=o,s.rel=e,"preconnect"!==e&&(s.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(s.crossOrigin=!0),t.crossOrigin&&(s.crossOrigin=t.crossOrigin),t.integrity&&(s.integrity=t.integrity),i.appendChild(s),this.trash.push(s)}})),document.head.appendChild(i)}j(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function s(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(s){t.everythingLoaded?o=s:e["rocket"+i]=o=s}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),s(document,"onreadystatechange"),s(window,"onload"),s(window,"onpageshow");try{Object.defineProperty(document,"readyState",{get:()=>t.rocketReadyState,set(e){t.rocketReadyState=e},configurable:!0}),document.readyState="loading"}catch(t){console.log("WPRocket DJE readyState conflict, bypassing")}}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){function s(t){const e=o.fn[t];o.fn[t]=o.fn.init.prototype[t]=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this}}o&&o.fn&&!t.allJQueries.includes(o)&&(o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])},s("on"),s("one"),t.allJQueries.push(o)),e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async U(){this.domReadyFired=!0;try{document.readyState="interactive"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){try{document.readyState="complete"}catch(t){}await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}I(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),s=i.parentElement;let n=t.get(i);void 0===n&&(n=i.nextSibling,t.set(i,n));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),s.insertBefore(c,n)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.p(t)}}RocketLazyLoadScripts.run()})();</script>
+
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
+<meta content='yes' name='apple-mobile-web-app-capable' />
+<link rel="preload" as="font" type="font/woff2" href="https://traidmod.net/wp-content/themes/tm-theme/assets/fonts/Tajawal-Medium.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="https://traidmod.net/wp-content/themes/tm-theme/assets/fonts/Tajawal-Medium.woff2" crossorigin>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<meta name='robots' content='index,follow' />
+
+<!-- تحسين مُحركات البحث بواسطة رانك ماث برو (Rank Math PRO)-  https://s.rankmath.com/home -->
+<title>تحميل العاب مهكرة للاندرويد APK برابط مباشر 2025 مجاناً</title>
+<meta name="description" content="قم بـ تحميل العاب مهكرة APK للاندرويد برابط مباشر من ميديا فاير الآن, نوفر لك مجموعة من أفضل الألعاب المهكرة للاندرويد والتي يمكنك تنزيلها بنقرة واحدة [محدثة بإستمرار]."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://traidmod.net/games/" />
+<link rel="next" href="https://traidmod.net/games/page/2/" />
+<meta property="og:locale" content="ar_AR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="تحميل العاب مهكرة للاندرويد APK برابط مباشر 2025 مجاناً" />
+<meta property="og:description" content="قم بـ تحميل العاب مهكرة APK للاندرويد برابط مباشر من ميديا فاير الآن, نوفر لك مجموعة من أفضل الألعاب المهكرة للاندرويد والتي يمكنك تنزيلها بنقرة واحدة [محدثة بإستمرار]." />
+<meta property="og:url" content="https://traidmod.net/games/" />
+<meta property="og:site_name" content="إينزو مود" />
+<meta property="og:image" content="https://traidmod.net/wp-content/uploads/2023/06/OpenGraph-Thumbnail.webp" />
+<meta property="og:image:secure_url" content="https://traidmod.net/wp-content/uploads/2023/06/OpenGraph-Thumbnail.webp" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/webp" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="تحميل العاب مهكرة للاندرويد APK برابط مباشر 2025 مجاناً" />
+<meta name="twitter:description" content="قم بـ تحميل العاب مهكرة APK للاندرويد برابط مباشر من ميديا فاير الآن, نوفر لك مجموعة من أفضل الألعاب المهكرة للاندرويد والتي يمكنك تنزيلها بنقرة واحدة [محدثة بإستمرار]." />
+<meta name="twitter:image" content="https://traidmod.net/wp-content/uploads/2023/06/OpenGraph-Thumbnail.webp" />
+<meta name="twitter:label1" content="مقالات" />
+<meta name="twitter:data1" content="363" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":"1","url":"https://traidmod.net/stunt-bike-extreme/"},{"@type":"ListItem","position":"2","url":"https://traidmod.net/carrion/"},{"@type":"ListItem","position":"3","url":"https://traidmod.net/prison-life/"},{"@type":"ListItem","position":"4","url":"https://traidmod.net/my-perfect-hotel/"},{"@type":"ListItem","position":"5","url":"https://traidmod.net/slugterra-slug-it-out-2/"},{"@type":"ListItem","position":"6","url":"https://traidmod.net/ojol-the-game/"},{"@type":"ListItem","position":"7","url":"https://traidmod.net/outlets-rush/"},{"@type":"ListItem","position":"8","url":"https://traidmod.net/moto-wheelie-3d/"},{"@type":"ListItem","position":"9","url":"https://traidmod.net/swamp-attack/"},{"@type":"ListItem","position":"10","url":"https://traidmod.net/stick-demon-shadow-fight/"},{"@type":"ListItem","position":"11","url":"https://traidmod.net/the-sims-mobile/"},{"@type":"ListItem","position":"12","url":"https://traidmod.net/minecraft-original/"},{"@type":"ListItem","position":"13","url":"https://traidmod.net/minecraft-story-mode/"},{"@type":"ListItem","position":"14","url":"https://traidmod.net/minecraft-pocket-edition/"},{"@type":"ListItem","position":"15","url":"https://traidmod.net/minecraft/"},{"@type":"ListItem","position":"16","url":"https://traidmod.net/zombie-gunship-survival/"},{"@type":"ListItem","position":"17","url":"https://traidmod.net/lords-mobile/"},{"@type":"ListItem","position":"18","url":"https://traidmod.net/barbie-dreamhouse/"}],"mainEntityOfPage":{"@id":"https://traidmod.net/games/#webpage"}},{"@type":"Person","@id":"https://traidmod.net/#person","name":"TraidMod","image":{"@type":"ImageObject","@id":"https://traidmod.net/#logo","url":"https://traidmod.net/wp-content/uploads/2023/06/SEO-LOGO.webp","contentUrl":"https://traidmod.net/wp-content/uploads/2023/06/SEO-LOGO.webp","caption":"\u062a\u0631\u0627\u064a\u062f \u0645\u0648\u062f","inLanguage":"ar","width":"112","height":"112"}},{"@type":"WebSite","@id":"https://traidmod.net/#website","url":"https://traidmod.net","name":"\u062a\u0631\u0627\u064a\u062f \u0645\u0648\u062f","alternateName":"TraidMod","publisher":{"@id":"https://traidmod.net/#person"},"inLanguage":"ar"},{"@type":"CollectionPage","@id":"https://traidmod.net/games/#webpage","url":"https://traidmod.net/games/","name":"\u062a\u062d\u0645\u064a\u0644 \u0627\u0644\u0639\u0627\u0628 \u0645\u0647\u0643\u0631\u0629 \u0644\u0644\u0627\u0646\u062f\u0631\u0648\u064a\u062f APK \u0628\u0631\u0627\u0628\u0637 \u0645\u0628\u0627\u0634\u0631 2025 \u0645\u062c\u0627\u0646\u0627\u064b","isPartOf":{"@id":"https://traidmod.net/#website"},"inLanguage":"ar"}]}</script>
+<!-- /إضافة تحسين محركات البحث لووردبريس Rank Math -->
+
+<link data-minify="1" rel='stylesheet' id='TraidMod-wp-report-post-css' href='https://traidmod.net/wp-content/cache/background-css/traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/wp-report-post/css/style.css?ver=1740632037&wpr_t=1741232769' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='TraidMod-remodal-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/wp-report-post/lib/remodal/remodal.css?ver=1740632037' type='text/css' media='all' />
+
+<link rel='dns-prefetch' href='//i0.wp.com' />
+
+        <style></style><style></style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4869407411072670"
+     crossorigin="anonymous"></script><link rel="icon" href="https://traidmod.net/wp-content/uploads/2024/03/cropped-logo-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://traidmod.net/wp-content/uploads/2024/03/cropped-logo-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://traidmod.net/wp-content/uploads/2024/03/cropped-logo-180x180.png" />
+<meta name="msapplication-TileImage" content="https://traidmod.net/wp-content/uploads/2024/03/cropped-logo-270x270.png" />
+	<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
+	<style>
+		:root {
+--font-base: Tajawal;
+--font-headings: Tajawal;
+--font-input: Tajawal;
+}
+@font-face {font-family:'cf-tajawal';src:url('https://traidmod.net/wp-content/themes/tm-theme/assets/fonts/Tajawal-Medium.woff2') format('woff2');}@font-face {font-family:'Tajawal';src:url('https://traidmod.net/wp-content/themes/tm-theme/assets/fonts/Tajawal-Medium.woff2') format('woff2');}body, #content, .entry-content, .post-content, .page-content, .post-excerpt, .entry-summary, .entry-excerpt, .widget-area, .widget, .sidebar, #sidebar, footer, .footer, #footer, .site-footer {
+font-family: "Tajawal" !important;
+font-style: normal !important;
+font-weight: 400 !important;
+ }
+#site-title, .site-title, #site-title a, .site-title a, .entry-title, .entry-title a, h1, h2, h3, h4, h5, h6, .widget-title, .elementor-heading-title {
+font-family: "Tajawal" !important;
+ }
+button, .button, input, select, textarea, .wp-block-button, .wp-block-button__link {
+font-family: "Tajawal" !important;
+ }
+@media only screen and (max-width: 800px) {
+ }
+@media only screen and (max-width: 800px) {
+ }
+@media only screen and (max-width: 400px) {
+ }
+@media only screen and (max-width: 400px) {
+ }
+	</style>
+	<!-- Fonts Plugin CSS -->
+	<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+<!-- Theme Designer -->
+<meta name="designer" content="exthem.es" />
+<meta name="themes" content="traidmod" />
+<meta name="version" content="5.5" />
+<!-- Chrome, Firefox OS and Opera -->
+<meta content='#18ddfe' name='theme-color'/>
+<!-- Windows Phone -->
+<meta content='#18ddfe' name='msapplication-navbutton-color'/>
+<meta content='#18ddfe' name='apple-mobile-web-app-status-bar-style' />
+<!-- Styles for traidmod v5.5 by exthem.es -->
+
+<style id="root-styles-traidmod-v.5.5">:root{--homes:https://traidmod.net/wp-content/themes/tm-theme;--fontasli: Manrope, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;--font:;--fonts: ;--font_body_rtl: ;--color_likes:#4ccb70;--color_dislikes:#f9563d;--color_nav_rgb:rgba(249,189,59, .3);--color_nav_link:#172B3D;--color_nav:#f9bd3b;--tcolor:#172B3D;--bgcolor:#EFF7F1;--color_link_menu:#000000;--color_rgb_svg:rgba(24,221,254, .3);--colorsvg:#18ddfe;--color_sosmed_icon:#18ddfe;--colorsvg_hover:#2db9e6;--lcolor:#1e9fba;--lhcolor:#18ddfe;--color_button:#18ddfe;--color_border_button:#18ddfe;--color_button_hover:#34bbe6;--rgbacolor:rgba(254,222,74, .7);--rgbacolorbackground:rgba(24,221,254, .7);--sel-lang-active:#fff;--header-bg:#ffffff;--menu-hover-games:#F8B035;--menu-hover-apps:#7126C1;--menu-hover-top:#F74A2F;--menu-hover-news:#368BE1;--hmenu-more-grad:linear-gradient(90deg,rgba(23,43,61,0) 0%,rgba(23,43,61,0.05) 100%);--footer-bg:#142636;--main-heading:#18ddfe;--dark-section-bg:#172b3d;--dark-section-grad:linear-gradient(0deg,#172b3d 0%,#0F1F2E 100%);--dark-circle-blur:radial-gradient(closest-side,rgba(23,43,61,0) 0,rgba(23,43,61,0.6) 50%,rgba(23,43,61,1) 94%);--form-control-bg:#fff;--form-control-brd:#E7E9EB;--form-control-brd-f:#D0D4D8;--placeholder:#8B959E;--cloud-c1:#18ddfe;--cloud-c2:#fbfcf3;--entry-bg:#ffffff;--entry-info:#18ddfe;--entry-info-sep:#E6EFF4;--entry-label:rgba(255,255,255,.5);--entry-pattern: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%238B959E' d='M2,8a2,2,0,1,0,2,2A2,2,0,0,0,2,8Zm8-8a2,2,0,1,0,2,2A2,2,0,0,0,10,0Z'/%3E%3C/svg%3E");--entry-pattern-d: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%234CCB70' d='M2,8a2,2,0,1,0,2,2A2,2,0,0,0,2,8Zm8-8a2,2,0,1,0,2,2A2,2,0,0,0,10,0Z'/%3E%3C/svg%3E");--block-bg:#fff;--block-bg-transp:rgba(255,255,255,0);--block-dark-bg:#273D52;--modal-bg:#fff;--cat-menu:rgba(24,221,254, .7);--cat-menu-h:#172B3D;--spoiler:#f7f7f7;--spoiler-h:#EDFAF0;--searchsug:#f7f7f7;--searchsug-item:#fff;--nocomms:#765846;--coms-meta:rgba(23,43,61,.5);--coms-meta-h:rgba(23,43,61,.8);--line:#EBECED;--scrollbar:#F7F7F7;--scrollbar-thumb:#D0D0D0;--scrollbar-track:#F7F7F7;--loading-bg:rgba(255,255,255,.9);--spec-fade:rgba(23,41,61,1);--spec-fade-transp:rgba(23,41,61,0);--select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23172B3D' d='M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z'/%3E%3C/svg%3E");--pageform-img:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation.png);--pageform-img2:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation.png);--pageform-bg:#EFF7F1;--opacity:1;--s_yellow:#f9bd3b;--s_yellow_bg_1:#FEDE4A;--s_yellow_bg_2:#F8B035;--s_green:#51eaff;--s_green_bg_1:#18ddfe;--s_green_bg_2:#22CDE7;--s_purple:#9248e1;--s_purple_bg_1:#9B54E8;--s_purple_bg_2:#7126C1;--s_red:#fb614a;--s_red_bg_1:#FF715C;--s_red_bg_2:#F74A2F;--s_blue:#37a9e4;--s_blue_bg_1:#38B9E6;--s_blue_bg_2:#368BE1;--homes_titles_colors:;--download_icon: url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/download.svg);--putih :#fff;} html.darktheme{--tcolor:#ffffff;--color_link_menu_dark:#ffffff;--bgcolor:#172B3D;--bgcolor_dark:#172B3D;--sel-lang-active:#172B3D;--header-bg:#2A4055;--menu-hover-apps:#9A53E7;--hmenu-more-grad:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.05) 100%);--footer-bg:#091521;--main-heading:#18ddfe;--dark-section-bg:#0F1F2E;--dark-section-grad:linear-gradient(0deg,#172b3d 0%,#0F1F2E 100%);--dark-circle-blur:radial-gradient(closest-side,rgba(15,31,46,0) 0,rgba(15,31,46,0.6) 50%,rgba(15,31,46,1) 94%);--form-control-bg:#273D52;--form-control-brd:#3D5164;--form-control-brd-f:#53677B;--placeholder:#687786;--cloud-c1:#0F1F2E;--cloud-c2:#142636;--entry-bg:#273D52;--entry-info:#939EA9;--entry-info-sep:#3D5164;--entry-label:rgba(39,61,82,.5);--entry-pattern:var(--entry-pattern-d);--block-bg:#273D52;--block-bg-transp:rgba(39,61,82,0);--block-dark-bg:#213548;--modal-bg:#2A4055;--cat-menu:rgba(76,203,112,.1);--cat-menu-h:rgba(76,203,112,.2);--spoiler:rgba(255,255,255,0.05);--spoiler-h:rgba(255,255,255,0.1);--searchsug:#2A4055;--searchsug-item:rgba(255,255,255,0.05);--nocomms:#fede4a;--coms-meta:rgba(255,255,255,.5);--coms-meta-h:rgba(255,255,255,.8);--line:rgba(255,255,255,0.05);--scrollbar:#2A4055;--scrollbar-thumb:#0F1F2E;--scrollbar-track:#2A4055;--loading-bg:rgba(0,0,0,.9);--spec-fade:rgba(15,31,46,1);--spec-fade-transp:rgba(15,31,46,0);--select-arrow:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23748390' d='M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z'/%3E%3C/svg%3E");--pageform-img:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation-night.png);--pageform-img2:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation-night.png);--pageform-bg:#0d1d2b;--fonts: ;--font_body_rtl: ;--homes_titles_colors_dark:;--download_icon: url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/download.svg);--putih :#fff;}</style>
+<style id="custom-style-traidmod-v.5.5">@charset "UTF-8";@import url('');.showH{font-size:.93rem;line-height:1.7em}details.ac{padding:18px 0;border-bottom:0px solid #e0e7f0}details.ac:first-child{border-top:0px solid #e0e7f0}details.ac summary{font-weight:700;cursor:default;display:flex;align-items:baseline;transition: all .1s ease}details.ac summary::before{content:'\203A';flex:0 0 25px;display:flex;align-items:center;justify-content:flex-start;padding:0 5px;font-weight:400;font-size:1.33rem;color:var(--color_button)}details.ac[open] summary{color: var(--lcolor)}details.ac:not(.alt)[open] summary::before{transform:rotate(90deg);padding:0 0 0 5px;justify-content:center}details.ac.alt summary::before{content:'\002B';padding:0 2px}details.ac.alt[open] summary::before{content:'\2212'}details.ac .aC{padding:0 25px;opacity:.9}.rtl details.ac[open] summary{color: #000}details.ac:not(.alt)[open] summary::before{transform:rotate(-90deg);padding:0 5px 0 0 ;justify-content:center}.rtl details.ac .aC{padding:0 0 0 25px;text-align: right;}.rtl .comment-meta .group-label {margin-left: 1rem;text-align: right;}.rtl .comment-text, .rtl .comment-foot {line-height: normal;padding-right: 5px;text-align: right;}.rtl .report-post-form, .rtl .remodal-is-initialized {text-align: right;}</style><style id="root-rtl-styles-TraidMod-v.5.5">
+:root{--s_yellow:#f9bd3b;--s_yellow_bg_1:#FEDE4A;--s_yellow_bg_2:#F8B035;--s_green:#51eaff;--s_green_bg_1:#18ddfe;--s_green_bg_2:#22CDE7;--s_purple:#9248e1;--s_purple_bg_1:#9B54E8;--s_purple_bg_2:#7126C1;--s_red:#fb614a;--s_red_bg_1:#FF715C;--s_red_bg_2:#F74A2F;--s_blue:#37a9e4;--s_blue_bg_1:#38B9E6;--s_blue_bg_2:#368BE1;--font:;--homes:https://traidmod.net/wp-content/themes/tm-theme;--tcolor:#172B3D;--bgcolor:#EFF7F1;--color_link_menu:#000000;--colorsvg:#18ddfe;--color_sosmed_icon:#18ddfe;--colorsvg_hover:#2db9e6;--lcolor:#1e9fba;--lhcolor:#18ddfe;--color_button:#18ddfe;--color_border_button:#18ddfe;--color_button_hover:#34bbe6;--rgbacolor:rgba(254,222,74, .7);--rgbacolorbackground:rgba(24,221,254, .7);--sel-lang-active:#fff;--header-bg:#ffffff;--menu-hover-games:#F8B035;--menu-hover-apps:#7126C1;--menu-hover-top:#F74A2F;--menu-hover-news:#368BE1;--hmenu-more-grad:linear-gradient(90deg,rgba(23,43,61,0) 0%,rgba(23,43,61,0.05) 100%);--footer-bg:#142636;--main-heading:#18ddfe;--dark-section-bg:#172B3D;--dark-section-grad:linear-gradient(0deg,#172B3D 0%,#0E1C29 100%);--dark-circle-blur:radial-gradient(closest-side,rgba(23,43,61,0) 0,rgba(23,43,61,0.6) 50%,rgba(23,43,61,1) 94%);--form-control-bg:#fff;--form-control-brd:#E7E9EB;--form-control-brd-f:#D0D4D8;--placeholder:#8B959E;--cloud-c1:#18ddfe;--cloud-c2:#fbfcf3;--entry-bg:#fff;--entry-info:#18ddfe;--entry-info-sep:#E6EFF4;--entry-label:rgba(255,255,255,.5);--entry-pattern:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%238B959E' d='M2,8a2,2,0,1,0,2,2A2,2,0,0,0,2,8Zm8-8a2,2,0,1,0,2,2A2,2,0,0,0,10,0Z'/%3E%3C/svg%3E");--entry-pattern-d:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%234CCB70' d='M2,8a2,2,0,1,0,2,2A2,2,0,0,0,2,8Zm8-8a2,2,0,1,0,2,2A2,2,0,0,0,10,0Z'/%3E%3C/svg%3E");--block-bg:#fff;--block-bg-transp:rgba(255,255,255,0);--block-dark-bg:#273D52;--modal-bg:#ffffff;--cat-menu:rgba(24,221,254, .7);--cat-menu-h:#172B3D;--spoiler:#f7f7f7;--spoiler-h:#EDFAF0;--searchsug:#f7f7f7;--searchsug-item:#fff;--nocomms:#765846;--coms-meta:rgba(23,43,61,.5);--coms-meta-h:rgba(23,43,61,.8);--line:#EBECED;--scrollbar:#F7F7F7;--scrollbar-thumb:#D0D0D0;--scrollbar-track:#F7F7F7;--loading-bg:rgba(255,255,255,.9);--spec-fade:rgba(23,41,61,1);--spec-fade-transp:rgba(23,41,61,0);--select-arrow:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23172B3D' d='M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z'/%3E%3C/svg%3E");--pageform-img:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation.png);--pageform-img2:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation.png);--pageform-bg:#EFF7F1;--fonts: ;--font_body_rtl: ;}
+html.darktheme{--tcolor:#ffffff;--color_link_menu_dark:#ffffff;--bgcolor:#172B3D;--bgcolor_dark:#172B3D;--sel-lang-active:#172B3D;--header-bg:#2A4055;--menu-hover-apps:#9A53E7;--hmenu-more-grad:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.05) 100%);--footer-bg:#091521;--main-heading:#18ddfe;--dark-section-bg:#0F1F2E;--dark-section-grad:linear-gradient(0deg,#172b3d 0%,#0F1F2E 100%);--dark-circle-blur:radial-gradient(closest-side,rgba(15,31,46,0) 0,rgba(15,31,46,0.6) 50%,rgba(15,31,46,1) 94%);--form-control-bg:#273D52;--form-control-brd:#3D5164;--form-control-brd-f:#53677B;--placeholder:#687786;--cloud-c1:#0F1F2E;--cloud-c2:#142636;--entry-bg:#273D52;--entry-info:#939EA9;--entry-info-sep:#3D5164;--entry-label:rgba(39,61,82,.5);--entry-pattern:var(--entry-pattern-d);--block-bg:#273D52;--block-bg-transp:rgba(39,61,82,0);--block-dark-bg:#213548;--modal-bg:#2A4055;--cat-menu:rgba(76,203,112,.1);--cat-menu-h:rgba(76,203,112,.2);--spoiler:rgba(255,255,255,0.05);--spoiler-h:rgba(255,255,255,0.1);--searchsug:#2A4055;--searchsug-item:rgba(255,255,255,0.05);--nocomms:#fede4a;--coms-meta:rgba(255,255,255,.5);--coms-meta-h:rgba(255,255,255,.8);--line:rgba(255,255,255,0.05);--scrollbar:#2A4055;--scrollbar-thumb:#0F1F2E;--scrollbar-track:#2A4055;--loading-bg:rgba(0,0,0,.9);--spec-fade:rgba(15,31,46,1);--spec-fade-transp:rgba(15,31,46,0);--select-arrow:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23748390' d='M8.12 9.29L12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41 0 .39.39.39 1.02 0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41 0L6.7 10.7c-.39-.39-.39-1.02 0-1.41.39-.38 1.03-.39 1.42 0z'/%3E%3C/svg%3E");--pageform-img:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation-night.png);--pageform-img2:url(https://traidmod.net/wp-content/themes/tm-theme/assets/img/page-illustation-night.png);--pageform-bg:#0d1d2b;--fonts: ;--font_body_rtl: ;--homes_titles_colors_dark:;}
+</style>
+<link data-minify="1" id="core-rtl-style-traidmod-v.5.5" href="https://traidmod.net/wp-content/cache/background-css/traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css.rtl/core.css?ver=1740632037&wpr_t=1741232769" type="text/css" rel="stylesheet">
+<link data-minify="1" id="styles-rtl-traidmod-v.5.5" href="https://traidmod.net/wp-content/cache/background-css/traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css.rtl/styles.css?ver=1740632037&wpr_t=1741232769" type="text/css" rel="stylesheet">
+<link data-minify="1" id="short-rtl-style-traidmod-v.5.5" href="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css.rtl/short.css?ver=1740632037" type="text/css" rel="stylesheet">
+<link data-minify="1" id="fullstory-rtl-style-traidmod-v.5.5" href="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css.rtl/fullstory.css?ver=1740632037" type="text/css" rel="stylesheet">
+<link data-minify="1" id="comments-rtl-style-traidmod-v.5.5" href="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css.rtl/comments.css?ver=1740632037" type="text/css" rel="stylesheet">
+<link data-minify="1" id="other-rtl-style-traidmod-v.5.5" href="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css.rtl/other.css?ver=1740632037" type="text/css" rel="stylesheet">
+<!--<link rel="preload" href="https://traidmod.net/wp-content/themes/tm-theme/assets/fonts/manrope-v3-cyrillic-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://traidmod.net/wp-content/themes/tm-theme/assets/fonts/manrope-v3-cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin>-->
+<link data-minify="1" rel="preload" href="https://traidmod.net/wp-content/cache/background-css/traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css/cores.styles.css?ver=1740632037&wpr_t=1741232769" as="style">
+<link data-minify="1" rel="preload" href="https://traidmod.net/wp-content/cache/background-css/traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css/styles.css?ver=1740632037&wpr_t=1741232769" as="style">
+ 
+<style id='mobile-css-traidmod-v5.5'>@media (min-width:320px) and (max-width:1024px){.page-head-main{margin-top:-4.5rem!important}}@media (min-width:1025px){.page-head-main{margin-top:0!important}}</style>
+ 
+<style>.oVnAB {margin-left: 24px;margin-right: 24px;padding-bottom: 20px;}@media screen and (min-width: 600px) {.oVnAB {margin-left: 48px;margin-right: 48px;}}@media screen and (min-width: 1280px) {.oVnAB {margin-left: 72px;margin-right: 72px;}}@media screen and (min-width: 1440px) {.oVnAB {margin-left: auto;margin-right: auto;max-width: 1296px;}}.kcen6d {color: #202124;fill: #202124;stop-color: #202124;font-family: "Google Sans", Helvetica, Arial, sans-serif;font-family: "Google Sans", Roboto, Arial, sans-serif;line-height: 1.5rem;font-size: 1.125rem;letter-spacing: 0;font-weight: 400;font-weight: 500;}.kcen6d:not(:disabled) {color: #202124;}.P9KVBf .kcen6d {color: #e8eaed;fill: #e8eaed;stop-color: #e8eaed;}.P9KVBf .kcen6d:not(:disabled) {color: #e8eaed;}@media screen and (min-width: 1280px) {.kcen6d {font-family: "Google Sans", Roboto, Arial, sans-serif;line-height: 1.75rem;font-size: 1.375rem;letter-spacing: 0;font-weight: 400;font-weight: 500;}}.ftgkle {--gap-width: 12px;}@media screen and (min-width: 600px) {.ftgkle {--gap-width: 16px;}.xR3GVb {--gap-width: 28px;}.b0ZfVe {padding-left: 40px;}}@media screen and (min-width: 1280px) {.ftgkle {--gap-width: 24px;}.xR3GVb {--gap-width: 36px;}.YMlj6b {margin-left: 18px;margin-right: 18px;overflow: visible;}}.YMlj6b {overflow: visible;}@media screen and (min-width: 1280px) and (min-width: 600px) {.YMlj6b {margin-left: 40px;margin-right: 40px;}}@media screen and (min-width: 1280px) and (min-width: 1280px) {.YMlj6b {margin-left: 60px;margin-right: 60px;}}@media screen and (min-width: 1280px) and (min-width: 1440px) {.YMlj6b {margin-left: auto;margin-right: auto;max-width: 1320px;}}.bewvKb {position: relative;}.bewvKb:hover > .hWUu9, .bewvKb:active > .hWUu9, .bewvKb:focus-within > .hWUu9, .COriJb {display: block;}@media (any-pointer: coarse) {.bewvKb:hover > .hWUu9, .bewvKb:active > .hWUu9, .bewvKb:focus-within > .hWUu9, .COriJb {display: none;}}@media screen and (any-pointer: coarse) and (min-width: 1280px) {.bewvKb:hover > .hWUu9, .bewvKb:active > .hWUu9, .bewvKb:focus-within > .hWUu9, .COriJb {display: block;}}.aoJE7e {display: -moz-box;display: flex;overflow-x: scroll;scroll-snap-type: x mandatory;}.aoJE7e::-webkit-scrollbar {display: none;}.b0ZfVe {display: -moz-box;display: flex;gap: var(--gap-width);padding: calc(var(--gap-width) / 2) 0;padding-left: 18px;scroll-snap-type: unset;}@media screen and (min-width: 1280px) {.b0ZfVe {padding-left: unset;scroll-snap-type: x mandatory;}}.ULeU3b {flex-shrink: 0;scroll-snap-align: start;}[dir="rtl"] .ULeU3b {scroll-snap-align: end;}.neq64b {padding-left: calc(var(--gap-width) / 2);margin-right: calc(var(--gap-width) / 2 * -1);}.VfPpkd-WsjYwc {-moz-border-radius: 4px;border-radius: 4px;-moz-border-radius: var(--mdc-shape-medium, 4px);border-radius: var(--mdc-shape-medium, 4px);background-color: #fff;background-color: var(--mdc-theme-surface, #fff);position: relative;-moz-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;display: flex;flex-direction: column;box-sizing: border-box;}.VfPpkd-WsjYwc .VfPpkd-BFbNVe-bF1uUb {width: 100%;height: 100%;top: 0;left: 0;}.VfPpkd-WsjYwc::after {-moz-border-radius: 4px;border-radius: 4px;-moz-border-radius: var(--mdc-shape-medium, 4px);border-radius: var(--mdc-shape-medium, 4px);position: absolute;box-sizing: border-box;width: 100%;height: 100%;top: 0;left: 0;border: 1px solid transparent;-moz-border-radius: inherit;border-radius: inherit;content: "";pointer-events: none;}@media screen and (forced-colors: active) {.VfPpkd-WsjYwc::after {border-color: CanvasText;}}.VfPpkd-WsjYwc-OWXEXe-INsAgc {-moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);border-width: 1px;border-style: solid;border-color: #e0e0e0;}.VfPpkd-WsjYwc-OWXEXe-INsAgc::after {border: none;}.KC1dQ {-moz-border-radius: 8px;border-radius: 8px;background-color: #fff;border-width: 0;-moz-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);}.KC1dQ .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.Usd1Ac {-moz-border-radius: 8px;border-radius: 8px;background-color: #fff;border: 1px solid #dadce0;-moz-box-shadow: none;box-shadow: none;}.Usd1Ac .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.MPNOXb {--gap-width: 12px;--card-width: calc(100vw - 48px);border: 0;display: -moz-box;display: flex;width: var(--card-width);}@media screen and (min-width: 600px) {.MPNOXb {--gap-width: 16px;--card-width: calc(75vw - 76px);}}@media screen and (min-width: 840px) {.MPNOXb {--card-width: calc(50vw - 56px);}}@media screen and (min-width: 960px) {.MPNOXb {--card-width: calc((100vw - 128px) / 3);}}@media screen and (min-width: 1280px) {.MPNOXb {--gap-width: 24px;--card-width: calc(33.3333333333vw - 64px);}.fy9T3c {font-size: 1rem;font-weight: 400;letter-spacing: 0.00625em;line-height: 1.5rem;-moz-box-flex: 0;flex: 0 0 32px;margin-top: 40px;}}@media screen and (min-width: 1440px) {.MPNOXb {--card-width: 416px;}}.VfPpkd-EScbFb-JIbuQc {display: -webkit-box;display: -moz-box;display: -webkit-flex;display: -ms-flexbox;display: flex;flex-direction: column;box-sizing: border-box;position: relative;outline: none;color: inherit;text-decoration: none;cursor: pointer;overflow: hidden;}.VfPpkd-EScbFb-JIbuQc:first-child {border-top-left-radius: inherit;border-top-right-radius: inherit;}.VfPpkd-EScbFb-JIbuQc:last-child {border-bottom-left-radius: inherit;border-bottom-right-radius: inherit;}.VfPpkd-EScbFb-JIbuQc {--mdc-ripple-fg-size: 0;--mdc-ripple-left: 0;--mdc-ripple-top: 0;--mdc-ripple-fg-scale: 1;--mdc-ripple-fg-translate-end: 0;--mdc-ripple-fg-translate-start: 0;will-change: transform, opacity;}.VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::before, .VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::after {position: absolute;-moz-border-radius: 50%;border-radius: 50%;opacity: 0;pointer-events: none;content: "";}.VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::before {transition: opacity 15ms linear, background-color 15ms linear;z-index: 1;z-index: var(--mdc-ripple-z-index, 1);}.VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::after {z-index: 0;z-index: var(--mdc-ripple-z-index, 0);}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d .VfPpkd-FJ5hab::before {transform: scale(var(--mdc-ripple-fg-scale, 1));}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d .VfPpkd-FJ5hab::after {top: 0;left: 0;transform: scale(0);transform-origin: center center;}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d-OWXEXe-ZNMTqd .VfPpkd-FJ5hab::after {top: var(--mdc-ripple-top, 0);left: var(--mdc-ripple-left, 0);}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-lJfZMc .VfPpkd-FJ5hab::after {animation: mdc-ripple-fg-radius-in 225ms forwards, mdc-ripple-fg-opacity-in 75ms forwards;}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d-OWXEXe-Tv8l5d-OmS1vf .VfPpkd-FJ5hab::after {animation: mdc-ripple-fg-opacity-out 150ms;transform: translate(var(--mdc-ripple-fg-translate-end, 0)) scale(var(--mdc-ripple-fg-scale, 1));}.VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::before, .VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::after {top: -moz-calc(50% - 100%);top: calc(50% - 100%);left: -moz-calc(50% - 100%);left: calc(50% - 100%);width: 200%;height: 200%;}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d .VfPpkd-FJ5hab::after {width: var(--mdc-ripple-fg-size, 100%);height: var(--mdc-ripple-fg-size, 100%);}.VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::before, .VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab::after {background-color: #000;background-color: var(--mdc-ripple-color, #000);}.VfPpkd-EScbFb-JIbuQc:hover .VfPpkd-FJ5hab::before, .VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-XxIAqe-OWXEXe-ZmdkE .VfPpkd-FJ5hab::before {opacity: 0.04;opacity: var(--mdc-ripple-hover-opacity, 0.04);}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe .VfPpkd-FJ5hab::before, .VfPpkd-EScbFb-JIbuQc:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-FJ5hab::before {transition-duration: 75ms;opacity: 0.12;opacity: var(--mdc-ripple-focus-opacity, 0.12);}.VfPpkd-EScbFb-JIbuQc:not(.VfPpkd-ksKsZd-mWPk3d) .VfPpkd-FJ5hab::after {transition: opacity 150ms linear;}.VfPpkd-EScbFb-JIbuQc:not(.VfPpkd-ksKsZd-mWPk3d):active .VfPpkd-FJ5hab::after {transition-duration: 75ms;opacity: 0.12;opacity: var(--mdc-ripple-press-opacity, 0.12);}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d {--mdc-ripple-fg-opacity: var(--mdc-ripple-press-opacity, 0.12);}.VfPpkd-EScbFb-JIbuQc .VfPpkd-FJ5hab {box-sizing: content-box;height: 100%;overflow: hidden;left: 0;pointer-events: none;position: absolute;top: 0;width: 100%;}.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe::after, .VfPpkd-EScbFb-JIbuQc:not(.VfPpkd-ksKsZd-mWPk3d):focus::after {position: absolute;box-sizing: border-box;width: 100%;height: 100%;top: 0;left: 0;border: 5px double transparent;-moz-border-radius: inherit;border-radius: inherit;content: "";pointer-events: none;}@media screen and (forced-colors: active) {.VfPpkd-EScbFb-JIbuQc.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe::after, .VfPpkd-EScbFb-JIbuQc:not(.VfPpkd-ksKsZd-mWPk3d):focus::after {border-color: CanvasText;}}.MxsXJd {border-radius: 8px;margin: 0 calc(var(--gap-width) / 2 * -1);padding: 0 calc(var(--gap-width) / 2);}.Si6A0c {position: absolute;left: 0;top: 0;width: 100%;height: 100%;outline: none;}.itIJzb {display: -moz-box;display: flex;position: relative;}.itIJzb .q6OP9b {color: #5f6368;fill: #5f6368;stop-color: #5f6368;font-size: 0.875rem;font-weight: 400;letter-spacing: 0.0142857143em;line-height: 1.25rem;}.itIJzb .q6OP9b:not(:disabled) {color: #5f6368;}.P9KVBf .itIJzb .q6OP9b {color: #9aa0a6;fill: #9aa0a6;stop-color: #9aa0a6;}.P9KVBf .itIJzb .q6OP9b:not(:disabled) {color: #9aa0a6;}.fy9T3c {color: #5f6368;fill: #5f6368;stop-color: #5f6368;font-size: 0.875rem;font-weight: 400;letter-spacing: 0.0142857143em;line-height: 1.25rem;font-family: Roboto, Helvetica, Arial, sans-serif;-moz-box-align: center;align-items: center;display: -moz-box;display: flex;-moz-box-flex: 0;flex: 0 0 24px;-moz-box-orient: vertical;-moz-box-direction: normal;flex-direction: column;margin: 34px 8px 0 0;}.fy9T3c:not(:disabled) {color: #5f6368;}.P9KVBf .fy9T3c {color: #9aa0a6;fill: #9aa0a6;stop-color: #9aa0a6;}.P9KVBf .fy9T3c:not(:disabled) {color: #9aa0a6;}.j2FCNc {-moz-column-gap: 16px;column-gap: 16px;display: grid;grid-template-columns: max-content auto;margin: 16px 0;}.T75of {background-size: contain;}.stzEZd {border-width: 0;box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);border-radius: 12px;height: 56px;width: 56px;}.stzEZd .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}@media screen and (min-width: 1280px) {.cQv9D {margin: 16px 12px;}.stzEZd {height: 64px;width: 64px;}.ECOsRb {border-radius: 4px;height: 132px;width: 88px;}.GGwY5 {height: 88px;width: 88px;}.cXFu1 {row-gap: 0;}}.cXFu1 {display: grid;grid-template-rows: max-content;height: -moz-fit-content;height: fit-content;row-gap: 2px;}.ubGTjb {-moz-box-align: center;align-items: center;display: -moz-inline-box;display: inline-flex;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}.sT93pb {display: inline-block;vertical-align: center;}.DdYX5 {color: #202124;fill: #202124;stop-color: #202124;font-size: 0.875rem;font-weight: 400;letter-spacing: 0.0142857143em;line-height: 1.25rem;font-family: Roboto, Helvetica, Arial, sans-serif;letter-spacing: -0.2px;}.DdYX5:not(:disabled) {color: #202124;}.P9KVBf .DdYX5 {color: #e8eaed;fill: #e8eaed;stop-color: #e8eaed;}.P9KVBf .DdYX5:not(:disabled) {color: #e8eaed;}@media screen and (min-width: 1280px) {.w2kbF, .JUF8md, .wMUdtb {font-size: 0.875rem;font-weight: 400;letter-spacing: 0.0142857143em;line-height: 1.25rem;letter-spacing: 0.2px;}.K4Wkre {font-weight: 500;}.Q4fJQd .Yvy3Fd {font-size: 0.75rem;}.muC06c {font-size: 14px;line-height: 20px;}.DdYX5 {font-size: 1rem;font-weight: 400;letter-spacing: 0.00625em;line-height: 1.5rem;letter-spacing: 0;}.ePXqnb {margin-left: 16px;}.O9T88b {height: 14px;}.YL5Er {fill: #5f6368;}.Q64Ric {margin-left: 8px;}}.OnEJge {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}.sYJxkd, .w2kbF, .JUF8md, .wMUdtb {font-family: Roboto, Arial, sans-serif;line-height: 1rem;font-size: 0.75rem;letter-spacing: 0.025em;font-weight: 400;font-family: Roboto, Helvetica, Arial, sans-serif;letter-spacing: 0.2px;}.Q4fJQd .Yvy3Fd, .sYJxkd, .O9T88b, .w2kbF, .JUF8md {color: #5f6368;fill: #5f6368;stop-color: #5f6368;}.Q4fJQd .Yvy3Fd:not(:disabled), .sYJxkd:not(:disabled), .O9T88b:not(:disabled), .w2kbF:not(:disabled), .JUF8md:not(:disabled) {color: #5f6368;}.P9KVBf .w2kbF {color: #9aa0a6;fill: #9aa0a6;stop-color: #9aa0a6;}.P9KVBf .w2kbF:not(:disabled) {color: #9aa0a6;}.CKzsaf, .Q4fJQd {-moz-box-align: center;align-items: center;display: -moz-inline-box;display: inline-flex;height: 100%;}.Q4fJQd .Yvy3Fd {font-size: 0.625rem;}.Q4fJQd {padding-left: 2px;}.P9KVBf .Q4fJQd .Yvy3Fd {color: #9aa0a6;fill: #9aa0a6;stop-color: #9aa0a6;}.P9KVBf .Q4fJQd .Yvy3Fd:not(:disabled) {color: #9aa0a6;}.ePXqnb {margin-left: 12px;}.ECOsRb {border-width: 0;box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);border-radius: 4px;height: 96px;width: 72px;}.ECOsRb .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.GGwY5 .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.nIMMJc .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.jpDEN .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.WIeXbc .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.K9vl4 .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.VfPpkd-LgbsSe .VfPpkd-BFbNVe-bF1uUb {width: 100%;height: 100%;top: 0;left: 0;}.nCP5yc .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.nCP5yc:hover .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.nCP5yc:active .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.Rj2Mlf .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.b9hyVd .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.b9hyVd.VfPpkd-ksKsZd-mWPk3d-OWXEXe-AHe6Kc-XpnDCe .VfPpkd-BFbNVe-bF1uUb, .b9hyVd:not(.VfPpkd-ksKsZd-mWPk3d):focus .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.b9hyVd:hover .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.b9hyVd:not(:disabled):active .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.Kjnxrf .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.Kjnxrf:hover .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.Kjnxrf:not(:disabled):active .VfPpkd-BFbNVe-bF1uUb {opacity: 0;}.VfPpkd-BFbNVe-bF1uUb {position: absolute;-moz-border-radius: inherit;border-radius: inherit;pointer-events: none;opacity: 0;opacity: var(--mdc-elevation-overlay-opacity, 0);transition: opacity 280ms cubic-bezier(0.4, 0, 0.2, 1);background-color: #fff;background-color: var(--mdc-elevation-overlay-color, #fff);}.NZp2ef {background-color: #e8eaed;}</style>
+<script type="rocketlazyloadscript" nonce="ozUmG9iZnoKm6ETVgGwszw">onCssLoad();</script> 
+<style id="version-style-traidmod-v.5.5" > .version_history {margin-bottom: 1.5rem;padding-bottom: .5rem;}.version_history .big_title {padding: 12px;font-size: 1rem;line-height: 1.2rem;color: #222;position: relative;}.version_history .big_title a {font-size: 12px;float: right;color: #666;}.version_history .big_title h2 {display: inline-block;}.version_history .list {width: 100%;background: var(--putih);box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);border-radius: 6px;margin-bottom: 5px;overflow: hidden;position: relative;-webkit-touch-callout: none;-moz-user-select: none;-webkit-user-select: none;-ms-user-select: none;-khtml-user-select: none;user-select: none;padding-left: 15px;padding-right: 15px;}.darktheme .version_history .list, .darktheme .info-fix, .darktheme .version_history .list .info_box, .darktheme .version_history .list .info_box .whats_new {background: var(--block-bg) !important;}.darktheme .version_history .list .title, .darktheme .version_history .list .info_box strong {color: var(--putih);}.version_history .list:hover {box-shadow: 0 0 6px 0 rgb(0 0 0 / 10%);}.version_history .list .package_info {display: block;color: #222;width: auto;padding: 12px 90px 12px 76px;position: relative;min-height: 72px;cursor: pointer;}.version_history .list .icon {position: absolute;left: 16px;top: 12px;width: 50px;height: 50px;border-radius: 8px;overflow: hidden;}.rtl .version_history .list .icon {right: 16px;}.version_history .list .text {font-size: 12px;line-height: 18px;color: #999;padding-top: 4px;display: block;}.version_history .list .text span {padding-right: 8px;}.version_history .list .title {line-height: 18px;font-size: 16px;overflow: hidden;display: block;}.version_history .list .title .version {font-weight: 700;padding-right: 6px;}.version_history .list .title .name {display: none;width: 100%;}.version_history .list .title span {margin: 2px 0;}.version_history .list .title span.apk,.version_history .list .title span.obb,.version_history .list .title span.xapk,.version_history .list .title span.mod {display: inline-block;height: 24px;line-height: 22px;padding: 0 4px;border-radius: 4px;text-transform: uppercase;border: 1px solid var(--color_button);color: var(--color_link);font-size: 12px;vertical-align: middle;}.version_history .list .title span.xapk {border-color: var(--color_button);color: var(--color_link);}.version_history .list .title span.obb {border: solid 1px var(--color_border_button);color: var(--color_link);}.version_history .list .title span.mod {border: solid 1px var(--color_button);color: var(--color_button);}.version_history .list .v_h_button {position: absolute;right: 0;top: 22px;text-align: right;padding-right: 8px;z-index: 10;}.rtl .version_history .list .v_h_button {left: 0;text-align: left;padding-left: 8px;}.info_box .down-button,.version_history .list .v_h_button a,.version_history .list .v_h_button button {display: inline-block;position: relative;height: 32px;line-height: 30px;width: 32px;border-radius: 50%;border: 1px solid #ebedef;cursor: pointer;vertical-align: top;margin: 0 4px;overflow: hidden;color: var(--putih);text-align: center;font-size: 12px;}.version_history .list .v_h_button .info {width: 20px;height: 20px;border: 1px solid #c1c1c1;position: relative;background: 0 0;margin-top: 7px;}.version_history .list .v_h_button .info:before {content: '';width: 100%;height: 100%;position: absolute;left: 0;top: 0;background-color: #c1c1c1;-webkit-mask: url(/images/info.svg) no-repeat center;mask: url(/images/info.svg) no-repeat center;-webkit-mask-size: 14px;mask-size: 14px;background-size: 14px;background-position: right center;background-repeat: no-repeat;}.info_box .down-button,.version_history .list .down {border: none;background: var(--color_button);background-image: linear-gradient(90deg,var(--color_button),var(--color_button));}.info_box .down-button:before,.version_history .list .down:before {content: '';width: 100%;height: 100%;position: absolute;left: 0;top: 0;background-color: var(--putih);-webkit-mask: var(--download_icon) no-repeat center;mask: var(--download_icon) no-repeat center;-webkit-mask-size: 12px;mask-size: 12px;background-size: 12px;background-position: right center;background-repeat: no-repeat;}.version_history .list .down span {display: none;}.version_history .list .down:hover,.version_history .list .info:hover {opacity: .9;}.version_history .list .info_box {display: none;border-top: 1px solid #e0e7f0;background: #fcfdfd;border-radius: 4px;font-size: 13px;padding: 16px;overflow-x: scroll;}.version_history .list .info_box.show {display: block;}.version_history .list .info_box p {padding: 4px 0;position: relative;}.version_history .list .info_box strong {font-weight: 600;color: #425761;}.version_history .list .info_box .whats_new {font-size: 12px;line-height: 18px;background: #f6f9fc;padding: 12px;margin-top: 4px;}.info_box .table {box-sizing: border-box;display: table;width: 100%;height: 100%;max-width: 100%;}.info-fix {position: relative;}.version_history .list .info_box.info-download {position: absolute;display: none;padding-left: 0;top: 0;right: 0;overflow: revert;}.version_history .info-download .table:before {content: '';width: 20%;height: 100%;position: absolute;left: -20%;top: 0;background: linear-gradient(to right ,rgba(255,255,255,0),var(--putih));}.version_history .more-apk {display: flex;justify-content: center;align-items: center;width: 43px;position: relative;height: 22px;}.version_history .list .info_box.show_amp {display: block;}.version_history .word-break {word-break: break-all;}.version_history .more-apk span:after,.version_history .more-apk span:before {content: '';position: absolute;left: 50%;}.version_history .more-apk span:before {top: 0;transform: translateX(-3px);}.version_history .more-apk span:after {bottom: 0;transform: translateX(-3px);}.version_history .more-apk span,.version_history .more-apk span:after,.version_history .more-apk span:before {width: 5px;height: 5px;border-radius: 50%;background-color: #9d9d9d;}@media (min-width:720px) {.version_history .list .package_info {padding-right: 160px;}.darktheme .version_history .list .package_info, .rtl .version_history .list .package_info {padding-right: unset!important;padding-right: 80px!important;}.version_history .more-apk {display: none;}.version_history .list .title .name {display: inline-block;padding-bottom: 4px;width: auto;}.version_history .list .v_h_button a.down,.version_history .list .v_h_button button.down {width: 100px;border-radius: 6px;}.version_history .list .v_h_button a.down:before,.version_history .list .v_h_button button.down:before {display: none;}.version_history .list .down span {display: inline-block;vertical-align: top;}}@media (max-width:720px) {.version_history .list .v_h_button button.down {display: none;}}@media (max-width:565px) {.version_history .list .info_box.info-download {display: block;}.info_box .table-cell .down_text {display: none;}.info_box .down-button {display: inline-block;}.version_history .list .info_box.show_amp_download {display: block;}}@media (min-width:565px) {.version_history .list .info_box.show_amp_download {display: none;}}.rtl .alert-line .wrp-min .alert-cont {padding-right: 10px!important;}.rtl .alert-title > i, .alert-line .i__info {margin-right: 1rem!important;}</style>  
+<!-- Styles for TraidMod v5.5 by exthem.es -->
+<link rel="shortcut icon" href="https://traidmod.net/wp-content/uploads/2023/06/logo1.webp" type="image/x-icon" />
+<style>label.c-muted { color: currentColor ; }</style>
+<style>#wpadminbars {display: none;}</style>
+<!-- Google tag (gtag.js) -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-DE8JHERQ0H"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DE8JHERQ0H');
+</script>
+
+<style>@media (min-width: 500px){.entry-news .pic {border-top-right-radius:0 !important; border-top-left-radius:1.125rem !important; border-bottom-right-radius: 0 !important; border-bottom-left-radius: 1.125rem !important;}}.alert-box{color:#555;border-radius:10px;padding:10px;margin:10px 0px 10px 0px;direction:rtl;line-height: normal;}.alert-box span{font-weight:700;text-transform:uppercase}.error{background:#ffecec;border:1px solid #f5aca6}.success{background:#e9ffd9;border:1px solid #a6ca8a}.warning{background:#fff8c4;border:1px solid #f2c779}.notice{background:#e3f7fc;border:1px solid #8ed9f6}</style> 
+<meta name="yandex-verification" content="50e689364768beab" />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='https://platform-api.sharethis.com/js/sharethis.js#property=67847e838d50b9001ab3b328&product=sticky-share-buttons' async='async'></script><!-- Webmaster Tool Verification -->
+<meta name="google-site-verification" content="AvKGNc41mcT7TmHke8nHR5U99NHLk2-eJw_j6PyQq94" />
+<meta name="msvalidate.01" content="BC97A518A2B909C0B1A76AD695E9A665" />
+<meta name="yandex-verification" content="79c8f424386475c9" />
+<meta name="p:domain_verify" content="put your code"/>
+<meta name="baidu-site-verification" content="put your code" />
+<!-- Webmaster Tool Verification -->
+<!--<script type="rocketlazyloadscript" data-rocket-src="https://traidmod.net/wp-content/themes/tm-theme/assets/js/jquery.min.js"></script>-->
+<style id="news-styles-TraidMod-v.5.5">
+.entry-list,.entry-listpage{display:flex;flex-wrap:wrap;margin:-.25rem}.entry-list .entry,.entry-listpage .entry{width:100%;padding:.25rem}@media(min-width:640px){.entry-list,.entry-listpage{margin:-.5rem}.entry-list .entry,.entry-listpage .entry{padding:.5rem}}@media(min-width:1040px){.entry-list,.entry-listpage{margin:-1rem}.entry-list .entry,.entry-listpage .entry{padding:1rem}}.list-c2 .entry,.list-c3 .entry,.list-c4 .entry,.list-c6 .entry{max-width:50%;flex:0 0 50%}@media(min-width:576px) and (max-width:859px){.list-c6 .entry,.list-c4 .entry{max-width:33.333333%;flex:0 0 33.333333%}}@media(min-width:576px){.list-c3 .entry{max-width:33.333333%;flex:0 0 33.333333%}}@media(min-width:860px) and (max-width:1299px){.list-c6 .entry{max-width:25%;flex:0 0 25%}}@media(min-width:860px){.list-c4 .entry{max-width:25%;flex:0 0 25%}}@media(min-width:1300px){.list-c6 .entry{max-width:16.666666%;flex:0 0 16.666666%}}@media(min-width:860px) and (max-width:1299px){.section-related .list-c6 .entry{display:none}.section-related .list-c6 .entry:nth-child(-n+4){display:block}}@media(max-width:991px){.scroll-entry-list{margin:-.5rem -2rem;overflow:hidden}.scroll-entry-list .list-c6 .entry{max-width:16.666666%;flex:0 0 16.666666%}.scroll-entry-list .list-c4 .entry{max-width:25%;flex:0 0 25%}.scroll-entry-list .list-c3 .entry{max-width:33.333333%;flex:0 0 33.333333%}.scroll-entry-list .list-c2 .entry{max-width:50%;flex:0 0 50%}.scroll-entry-list .entry{min-width:18rem}.scroll-entry-list .entry-list{padding:2rem 0;margin:-2rem 0;overflow:hidden;overflow-x:auto;-webkit-overflow-scrolling:touch;flex-wrap:nowrap}.scroll-entry-list .entry-list::before,.scroll-entry-list .entry-list::after{content:"";min-width:1.5rem;max-width:1.5rem;height:2rem}}@media(max-width:639px){.scroll-entry-list{margin:-.5rem -1rem}.scroll-entry-list .entry-list::before,.scroll-entry-list .entry-list::after{min-width:.75rem;max-width:.75rem}}.label{display:flex;align-items:center;font-size:.6875rem;font-weight:700;background-color:var(--entry-label);text-transform:uppercase;line-height:1rem;padding:.25rem .5rem;border-radius:.75rem;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);pointer-events:none}.label::before{content:"";width:.5rem;height:.5rem;border:.25rem solid;display:block;border-radius:50%;margin-right:.25rem}.label-up{color:#37b6e5}.label-up::before{box-shadow:0 .25rem .5rem 0 rgba(55,176,229,.3)}.label-new{color:#f9563d}.label-new::before{box-shadow:0 .25rem .5rem 0 rgba(249,86,61,.3)}@media(min-width:992px){.recom-list{margin-top:-1rem}}.recom-post{z-index:0;padding:1rem;padding-top:0;text-align:center}.recom-post .title{font-size:.875rem;margin-top:1.25rem;margin-bottom:.25rem;padding-left:.25rem padding-right:.25rem}.recom-post .img{width:7rem;height:7rem}.recom-post-bg,.recom-post-vers{position:absolute;top:.5rem}.recom-post-bg{z-index:-1;background-color:var(--entry-bg);overflow:hidden;border-radius:1.125rem;left:0;bottom:0;width:100%;display:flex;justify-content:center;align-items:center}.recom-post-bg>svg{height:auto;transform:translateY(-40%)}.recom-post-vers{right:0;width:2rem;margin:.75rem;padding:.25rem;padding-bottom:.375rem;background-color:var(--entry-bg);pointer-events:none;border-radius:1rem;font-size:.625rem;font-weight:700;text-align:center;color:var(--entry-info)}.recom-post-vers>svg{display:block;margin:0 auto .125rem}.recom-purple .recom-post-bg>svg{transform:translateY(-40%) translateX(10%)}.recom-blue .img img{box-shadow:0 .5rem 1.5rem -.5rem #2b9dd5}.recom-green .img img{box-shadow:0 .5rem 1.5rem -.5rem #4ccb70}.recom-purple .img img{box-shadow:0 .5rem 1.5rem -.5rem #784ccb}.recom-yellow .img img{box-shadow:0 .5rem 1.5rem -.5rem #fede4a}@media(min-width:1140px){.recom-post .img{width:8.5rem;height:8.5rem}.recom-post .title{font-size:1rem}}@media(min-width:1040px){.recom-list{margin-top:-2rem}.recom-post::before{content:"";height:2rem;width:100%;position:absolute;left:0;top:0;z-index:-1;background-size:1rem 1rem;opacity:.2}.recom-post{padding:1.125rem}.recom-post-bg,.recom-post-vers{top:2.125rem}.recom-blue::before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNic+PHBhdGggZmlsbD0nIzJCOURENScgZD0nTTIsOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwyLDhabTgtOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwxMCwwWicvPjwvc3ZnPg==)}.recom-green::before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNic+PHBhdGggZmlsbD0nIzRDQ0I3MCcgZD0nTTIsOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwyLDhabTgtOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwxMCwwWicvPjwvc3ZnPg==)}.recom-purple::before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNic+PHBhdGggZmlsbD0nIzc4NENDQicgZD0nTTIsOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwyLDhabTgtOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwxMCwwWicvPjwvc3ZnPg==)}.recom-yellow::before{background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxNiAxNic+PHBhdGggZmlsbD0nI0ZFREU0QScgZD0nTTIsOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwyLDhabTgtOGEyLDIsMCwxLDAsMiwyQTIsMiwwLDAsMCwxMCwwWicvPjwvc3ZnPg==)}}@media(min-width:992px){.recom-post .img img{transition:transform .2s ease}.recom-post:hover .img img{transform:translateY(-.25rem)}.recom-post-bg>svg{transition:transform .3s ease}.recom-post:hover .recom-post-bg>svg{transform:translateY(-40%) scale(1.2)!important}.recom-purple.recom-post:hover .recom-post-bg>svg{transform:translateY(-40%) translateX(10%) scale(1.2)!important}}.page-news .entry-news+.entry-news{margin-top:1rem}@media(min-width:1040px){.page-news .entry-news+.entry-news{margin-top:2rem}}.entry-app>.item,.entry-news>.item{background-color:var(--entry-bg);border-radius:1.125rem;z-index:0}.entry-app>.item{height:100%;display:flex;flex-direction:column;text-align:center}.entry-app>.item::before{height:3.75rem;left:.875rem;right:.875rem;top:.875rem}@media(min-width:640px){.entry-news .pic::after,.entry-app>.item::before{content:"";position:absolute;background-size:1rem 1rem;z-index:-1;opacity:.075;background-image:var(--entry-pattern)}}.entry-app>.item::after{content:"";position:absolute;left:50%;top:0;z-index:-1;transform:translate(-50%,1rem);background-image:radial-gradient(closest-side,rgba(23,43,61,0.2) 0,rgba(23,43,61,0) 100%)}.entry-app .label{position:absolute;top:0;right:0;margin:.5rem;z-index:1}.entry-app .img{width:6rem;height:6rem;display:block;position:relative;margin:1.5rem auto}.entry-app .title{font-size:.875rem;padding:0 1rem;margin-top:-.25rem;margin-bottom:.25rem}.entry-app .title>a>span{display:block;overflow:hidden;line-height:1.4em;max-height:2.8em}.entry-app .genre{font-size:.75rem;margin:0 1rem auto;color:var(--lcolor)}.entry-app-info{display:flex;margin-top:1.25rem;position:relative;color:#939ea9;font-size:.625rem;font-weight:700}.entry-app-info::before{content:"";position:absolute;left:50%;top:0;width:1px;height:100%;background-color:var(--entry-info-sep)}.entry-app-info>li{width:100%;max-width:50%;flex:0 0 50%;padding:0 .75rem;padding-bottom:1rem}.entry-app-info>li svg{display:block;margin:0 auto;margin-bottom:.125rem}@media(max-width:639px){.entry-app-info>li svg{width:1rem;height:1rem}.entry-app>.item::after{width:10rem;padding-top:10rem}}@media(min-width:640px){.entry-app>.item::after{width:12rem;padding-top:12rem}.entry-app .img{width:7rem;height:7rem}}@media(min-width:992px){.entry-app>.item .img img{transition:transform .2s ease}.entry-app>.item:hover .img>img{transform:scale(1.05)}}.img .post__edit{position:absolute;right:0;top:0;z-index:3}.img .post__modpaid{background-color:#fff;width:2.5rem;height:1.25rem;border-radius:.625rem;color:var(--entry-info);pointer-events:none;position:absolute;top:100%;left:50%;transform:translate(-50%,-50%);line-height:.875rem;font-size:.625rem;padding:.1875rem .25rem;text-align:center;font-weight:700;letter-spacing:.05rem;text-indent:.05rem;box-shadow:0 .25rem .5rem 0 rgba(0,0,0,.07)}.entry-news{display:flex}.entry-news>.item{width:100%;border-radius:1.125rem}.entry-news .fit-cover{width:100%;height:100%;border-radius:inherit;margin:0}.entry-news .fit-cover::after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background-color:#000;opacity:.12}.entry-news .post__edit{right:0;top:0;position:absolute;margin:.25rem}.entry-news .post__edit a{z-index:3}.entry-news .cont{display:flex;flex-direction:column;width:100%;padding:1rem}.entry-news .meta{margin-bottom:1rem}.entry-news .title{font-size:1.25rem;margin-bottom:.75rem;margin-top:-.25rem}@media(min-width:992px){.entry-news .fit-cover::after{transition:opacity .2s ease}.entry-news>.item:hover .fit-cover::after{opacity:0}}@media(max-width:1139px){.entry-news .title{font-size:1.125rem}}@media(max-width:991px){.section-news .entry-news{max-width:100%;flex:0 0 100%}.entry-news .title{font-size:1rem}}@media(max-width:499px){.entry-news .pic{position:relative;width:100%;padding-top:35%;border-radius:inherit;border-bottom-left-radius:0;border-bottom-right-radius:0}.entry-news .pic .fit-cover{position:absolute;left:0;top:0}}@media(min-width:500px){.entry-news>.item{display:flex}.entry-news .cont{padding:1.5rem 2rem}.entry-news .pic{width:50%;max-width:18.75rem;order:13;margin:0;border-radius:inherit;border-top-left-radius:0;border-bottom-left-radius:0;margin-left:auto;background-color:#fbfbfb;position:relative}.entry-news .pic::after{right:100%;top:0;bottom:0;width:4.75rem;margin:.25rem}.entry-news .meta{margin-bottom:1.5rem}.entry-news .description{display:block!important;opacity:.8;overflow:hidden;max-height:6em;font-size:.875rem;margin-bottom:.75rem}.read-more{font-weight:700}}.read-more{font-size:.875rem;margin-top:auto}.read-more a{display:inline-block;padding:.5rem;margin:-.5rem 0 -.25rem -.5rem;position:relative;z-index:3}.meta{font-size:.75rem;line-height:1rem}.meta,.meta>*{display:flex;align-items:center}.meta>*:not(:last-child){margin-right:.5rem}.meta svg{vertical-align:top}.meta-date{font-weight:700;background-color:rgba(23,43,61,.1);padding:.25rem .5rem;border-radius:.75rem}.meta-edit a{display:flex;align-items:center;color:inherit}.meta-edit a svg{margin-right:.25rem}.dark-foot .entry-news .meta-date{background-color:rgba(255,255,255,.05)}.entry-coms>.item{background-color:#fff;border-radius:1.125rem;padding:1rem;font-size:.875rem}.entry-coms .user{margin-bottom:1rem;font-size:.75rem;color:inherit!important}.entry-coms .user .avatar img[src*="noavatar.png"]{background-color:#4ccb70}.entry-coms .title{font-size:inherit;margin-bottom:.5rem}.entry-coms .title a,.entry-coms-reply{color:#4ccb70}.entry-coms .description{margin-bottom:auto;opacity:.8;overflow:hidden;line-height:1.5em;height:3em}.entry-coms .date{margin-top:.5rem;display:block;font-size:.75rem}.entry-coms-reply{position:absolute;right:0;top:0;margin:1.5rem}@media(min-width:500px){.entry-coms>.item{padding:1.5rem}.entry-coms .title{margin-bottom:.75rem}.entry-coms .date{margin-top:.75rem}}@media(max-width:991px){.entry-coms .user{display:flex;align-items:center;margin-right:2rem}.entry-coms .user .avatar{min-width:1.5rem;max-width:1.5rem;height:1.5rem;margin-right:1rem}}@media(min-width:992px){.entry-coms>.item{text-align:center}.entry-coms .user{display:block;margin-top:-2rem}.entry-coms .user>span{opacity:.5}.entry-coms .user .avatar{display:block;margin:0 auto;margin-bottom:.25rem;box-shadow:0 .5rem 1.5rem -.5rem rgba(0,0,0,.5);transition:transform .2s ease}.entry-coms>.item:hover .user .avatar{transform:scale(1.05)}}.dark-foot .entry-news .pic::after,.dark-foot .entry-app>.item::before,.entry-coms::after{opacity:.075;background-image:var(--entry-pattern-d)}.dark-foot .entry-app>.item,.dark-foot .entry-news>.item,.entry-coms>.item{background-color:#273d52}.dark-foot .entry-news .pic{background-color:#2b4258}@media(min-width:1040px){.entry-coms::after{content:"";display:block;height:1.75rem;background-size:1rem 1rem;margin-top:.25rem}}
+</style>
+
+<!--<link href="https://traidmod.net/wp-content/themes/tm-theme/assets/css/short.styles.css" type="text/css" rel="stylesheet" />-->
+<!-- 
+- https://traidmod.net using TraidMod v5.5 
+- Buy now on https://TraidMod.com 
+- Designer and Developer by TM Devs 
+- More Premium Themes Visit Now On https://TraidMod.com 
+-->
+<style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion"></style>
+<noscript>
+<style id="wpr-lazyload-bg-nostyle">.report-post-link{--wpr-bg-d255928d-fa6d-4fa8-8771-737d3448a84b: url('https://traidmod.net/wp-content/themes/tm-theme/wp-report-post/images/warning.png');}a.highslide-full-expand{--wpr-bg-bbf4aefa-f581-4c93-a5a8-3df2517e390e: url('https://traidmod.net/assets/img/fullexpand.gif');}.highslide-controls{--wpr-bg-bcc73bce-35a3-4345-8ac4-a88134fc7d97: url('https://traidmod.net/assets/img/controlbar-black-border.gif');}.highslide-controls ul{--wpr-bg-7547c97a-14a1-4d1e-9e13-8d6d3a577140: url('https://traidmod.net/wp-content/themes/tm-theme/assets/css.rtl/assets/img/controlbar-black-border.gif');}.highslide-controls a{--wpr-bg-5cbf9649-deee-4e0c-8d88-c113db7cafe6: url('https://traidmod.net/assets/img/controlbar-black-border.gif');}.page-head-cat .bg-clouds{--wpr-bg-94ca603b-0c9b-40b3-8bb8-c781b420d031: url('https://traidmod.net/wp-content/themes/tm-theme/assets/css.rtl/assets/img/green_cloud.svg');}.page-head-cat.darkmod .bg-clouds{--wpr-bg-52bca5f3-33cc-40e5-90bd-29fc0a9da936: url('https://traidmod.net/wp-content/themes/tm-theme/assets/css.rtl/assets/img/dark_cloud.svg');}a.highslide-full-expand{--wpr-bg-bec8c219-c642-4602-9534-64050fdea453: url('https://traidmod.net/assets/img/fullexpand.gif');}.highslide-controls{--wpr-bg-e8ca672e-7002-491d-830d-536137ef4081: url('https://traidmod.net/assets/img/controlbar-black-border.gif');}.highslide-controls ul{--wpr-bg-8d39ed15-0d1c-4130-adc8-34c90e2287b6: url('https://traidmod.net/wp-content/themes/tm-theme/assets/css/assets/img/controlbar-black-border.gif');}.highslide-controls a{--wpr-bg-25b9b650-9d34-48ff-a597-adb80dbbe50c: url('https://traidmod.net/assets/img/controlbar-black-border.gif');}.page-head-cat .bg-clouds{--wpr-bg-903d1dad-3b6b-4088-8fc9-9f7e785087bf: url('https://traidmod.net/wp-content/themes/tm-theme/assets/css/assets/img/green_cloud.svg');}.page-head-cat.darkmod .bg-clouds{--wpr-bg-719c1d4c-0f64-4d5c-b9c3-6f64e67098ea: url('https://traidmod.net/wp-content/themes/tm-theme/assets/css/assets/img/dark_cloud.svg');}.rll-youtube-player .play{--wpr-bg-9d25ad05-c9e4-4bbc-b60b-e43d5c1463ee: url('https://traidmod.net/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
+</noscript>
+<script type="application/javascript">const rocket_pairs = [{"selector":".report-post-link","style":".report-post-link{--wpr-bg-d255928d-fa6d-4fa8-8771-737d3448a84b: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/wp-report-post\/images\/warning.png');}","hash":"d255928d-fa6d-4fa8-8771-737d3448a84b","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/wp-report-post\/images\/warning.png"},{"selector":"a.highslide-full-expand","style":"a.highslide-full-expand{--wpr-bg-bbf4aefa-f581-4c93-a5a8-3df2517e390e: url('https:\/\/traidmod.net\/assets\/img\/fullexpand.gif');}","hash":"bbf4aefa-f581-4c93-a5a8-3df2517e390e","url":"https:\/\/traidmod.net\/assets\/img\/fullexpand.gif"},{"selector":".highslide-controls","style":".highslide-controls{--wpr-bg-bcc73bce-35a3-4345-8ac4-a88134fc7d97: url('https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif');}","hash":"bcc73bce-35a3-4345-8ac4-a88134fc7d97","url":"https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif"},{"selector":".highslide-controls ul","style":".highslide-controls ul{--wpr-bg-7547c97a-14a1-4d1e-9e13-8d6d3a577140: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css.rtl\/assets\/img\/controlbar-black-border.gif');}","hash":"7547c97a-14a1-4d1e-9e13-8d6d3a577140","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css.rtl\/assets\/img\/controlbar-black-border.gif"},{"selector":".highslide-controls a","style":".highslide-controls a{--wpr-bg-5cbf9649-deee-4e0c-8d88-c113db7cafe6: url('https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif');}","hash":"5cbf9649-deee-4e0c-8d88-c113db7cafe6","url":"https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif"},{"selector":".page-head-cat .bg-clouds","style":".page-head-cat .bg-clouds{--wpr-bg-94ca603b-0c9b-40b3-8bb8-c781b420d031: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css.rtl\/assets\/img\/green_cloud.svg');}","hash":"94ca603b-0c9b-40b3-8bb8-c781b420d031","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css.rtl\/assets\/img\/green_cloud.svg"},{"selector":".page-head-cat.darkmod .bg-clouds","style":".page-head-cat.darkmod .bg-clouds{--wpr-bg-52bca5f3-33cc-40e5-90bd-29fc0a9da936: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css.rtl\/assets\/img\/dark_cloud.svg');}","hash":"52bca5f3-33cc-40e5-90bd-29fc0a9da936","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css.rtl\/assets\/img\/dark_cloud.svg"},{"selector":"a.highslide-full-expand","style":"a.highslide-full-expand{--wpr-bg-bec8c219-c642-4602-9534-64050fdea453: url('https:\/\/traidmod.net\/assets\/img\/fullexpand.gif');}","hash":"bec8c219-c642-4602-9534-64050fdea453","url":"https:\/\/traidmod.net\/assets\/img\/fullexpand.gif"},{"selector":".highslide-controls","style":".highslide-controls{--wpr-bg-e8ca672e-7002-491d-830d-536137ef4081: url('https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif');}","hash":"e8ca672e-7002-491d-830d-536137ef4081","url":"https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif"},{"selector":".highslide-controls ul","style":".highslide-controls ul{--wpr-bg-8d39ed15-0d1c-4130-adc8-34c90e2287b6: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css\/assets\/img\/controlbar-black-border.gif');}","hash":"8d39ed15-0d1c-4130-adc8-34c90e2287b6","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css\/assets\/img\/controlbar-black-border.gif"},{"selector":".highslide-controls a","style":".highslide-controls a{--wpr-bg-25b9b650-9d34-48ff-a597-adb80dbbe50c: url('https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif');}","hash":"25b9b650-9d34-48ff-a597-adb80dbbe50c","url":"https:\/\/traidmod.net\/assets\/img\/controlbar-black-border.gif"},{"selector":".page-head-cat .bg-clouds","style":".page-head-cat .bg-clouds{--wpr-bg-903d1dad-3b6b-4088-8fc9-9f7e785087bf: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css\/assets\/img\/green_cloud.svg');}","hash":"903d1dad-3b6b-4088-8fc9-9f7e785087bf","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css\/assets\/img\/green_cloud.svg"},{"selector":".page-head-cat.darkmod .bg-clouds","style":".page-head-cat.darkmod .bg-clouds{--wpr-bg-719c1d4c-0f64-4d5c-b9c3-6f64e67098ea: url('https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css\/assets\/img\/dark_cloud.svg');}","hash":"719c1d4c-0f64-4d5c-b9c3-6f64e67098ea","url":"https:\/\/traidmod.net\/wp-content\/themes\/tm-theme\/assets\/css\/assets\/img\/dark_cloud.svg"},{"selector":".rll-youtube-player .play","style":".rll-youtube-player .play{--wpr-bg-9d25ad05-c9e4-4bbc-b60b-e43d5c1463ee: url('https:\/\/traidmod.net\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"9d25ad05-c9e4-4bbc-b60b-e43d5c1463ee","url":"https:\/\/traidmod.net\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png"}]; const rocket_excluded_pairs = [];</script></head>
 <body>
-    <div class="container">
-        <h1>مرحبًا، أنا إنزو!</h1>
-        <p>اسمي الحقيقي محمد، عمري 17 سنة من الجزائر. محترف في مجال التصميم وبرمجة المواقع.</p>
-        <p>تابعني على مواقع التواصل الاجتماعي:</p>
-        <div class="social-icons">
-            <a href="https://facebook.com/yourprofile" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
-            <a href="https://twitter.com/yourprofile" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
-            <a href="https://instagram.com/yourprofile" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
-            <a href="https://github.com/yourprofile" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+<header  class="header">
+    <div  class="wrp-min">
+        <div  class="header-panel">
+            <a class="logotype" href="https://traidmod.net/" title="إينزو مود"><img src="https://traidmod.net/wp-content/uploads/2023/07/Traidmod-Logo-1.webp" alt="إينزو مود" width="104" height="36" />
+</a>
+            <div id="mobilemenu" class="head-tools" style="display: none;">
+                <div class="head-tools-panel">
+                    <nav class="hmenu" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+                        <a class="hm-games" itemprop="url" href="/top-games/"><span itemprop="name"><i class="s-yellow c-icon"><svg width="24" height="24"><use xlink:href="#i__gamepad"></use></svg></i> ألعاب ترند</span></a>
+
+<a class="hm-apps" itemprop="url" href="/top-apps/"><span itemprop="name"><i class="s-purple c-icon"><svg width="24" height="24"><use xlink:href="#i__apps"></use></svg></i> تطبيقات ترند</span></a>
+
+<a class="hm-top" itemprop="url" href="/top-100/"><span itemprop="name"><i class="s-red c-icon"><svg width="24" height="24"><use xlink:href="#i__cup"></use></svg></i>أفضل 100 </span></a>
+
+<a class="hm-news" itemprop="url" href="/news"><span itemprop="name"><i class="s-blue c-icon"><svg width="24" height="24"><use xlink:href="#i__flash"></use></svg></i>المقالات</span></a>
+						                        <div class="hmenu-more dropdown">
+                            <button class="hmenu-more-btn" aria-label="Subs Menu" ><span class="hmenu-more-dots"><i></i><i></i><i></i></span></button>
+                            <div style="display: none;" class="dropdown-menu">
+                                <nav class="hmenu-sub">
+                                    <a href="https://traidmod.net/request/">طلب تطبيق أو لعبة</a>
+<a href="https://traidmod.net/privacy-policy/">سياسة الخصوصية</a>
+<a href="https://traidmod.net/terms-of-use/">شروط الإستخدام</a>
+<a href="https://traidmod.net/disclaimer/">إخلاء المسؤولية</a>
+<a href="https://traidmod.net/contact-us/">إتصل بنا</a>
+									                                </nav>
+                            </div>
+                        </div>
+                    </nav>
+                    <form class="q-search" style="display: none;" action="https://traidmod.net/" method="GET">
+                        <div class="q-search-box">
+                            <label class="q-search-label" for="story">بحث</label>
+                            <input class="q-search-text" id="story" name="s" placeholder="أكتب اسم التطبيق أو اللعبة.." type="search" autocomplete="off">
+                            <button class="q-search-btn" type="submit" title="بحث">
+                                <span class="sr-only">بحث</span>
+                                <svg width="24" height="24"><use xlink:href="#i__search"></use></svg>
+                            </button>
+                        </div>
+                    </form>
+                    <button class="menu-toggle menu-close bbcodes" aria-label="Menu Close" style="display: none;">
+                        <svg width="24" height="24"><use xlink:href="#i__close"></use></svg>
+                    </button>
+                </div>
+                <div class="menu-toggle mm-overlay" style="display: none;"></div>
+            </div>
+            <div class="head-right">
+                                <button style="display: none;" class="q-search-call" aria-label="Find">
+                    <span class="sr-only">بحث</span>
+                    <svg class="qs-1" width="24" height="24"><use xlink:href="#i__search"></use></svg>
+                    <svg class="qs-2" width="24" height="24"><use xlink:href="#i__close"></use></svg>
+                </button>
+            </div>
+            <button class="menu-toggle menu-butter" aria-label="Mobile Menu" style="display: none;">
+                <span class="butterbrod"><i></i><i></i><i></i></span></button>
         </div>
     </div>
+</header>
+<!--BOSHKASH-->
+<!--<div class="toolbar">
+	<div class="sel-lang">
+	</div>
+    <button class="sel-dark-toggle" id="toggle-darkmod" aria-label="Dark Modes" ><svg class="i__moon" width="24" height="24"><use xlink:href="#i__moon"></use></svg><svg class="i__sun" width="24" height="24" style="display:none;"><use xlink:href="#i__sun"></use></svg></button>
+</div>-->
+<script type="rocketlazyloadscript">const g=e=>document.getElementById(e),classes=g("h").classList,cl="darktheme";localStorage.getItem("toggled-ttl")>Date.now()&&classes.toggle(cl,localStorage.getItem("toggled")),g("toggle-darkmod").addEventListener("click",function(e){e.preventDefault(),classes.contains(cl)?(localStorage.removeItem("toggled"),localStorage.removeItem("toggled-ttl"),classes.remove(cl)):(localStorage.setItem("toggled",1),localStorage.setItem("toggled-ttl",Date.now()+5184e6),classes.add(cl))});</script>    <div  class="wrp-min speedbar">
+        <div  class="speedbar-panel">
+            <span itemscope itemtype="http://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" href="https://traidmod.net/" itemprop="item"><span itemprop="name">إينزو مود</span></a><meta itemprop="position" content="1" /></span><span class="breadcrumbs__separator"> / </span><span class="breadcrumbs__current">ألعاب</span></span><!-- .breadcrumbs -->        </div>
+    </div>
+    
+    <div  class="page-head-cat">
+        <div  class="wrp-min">
+            <div  class="head-cat-title">
+                <h1 class="title">ألعاب</h1>
+                <div class="head-cat-tools">
+                    <button class="cat-menu-btn collapsed" type="button" title="Select a category" data-toggle="collapse" data-target="#collapse-menu"><svg width="24" height="24"><use xlink:href="#i__settings"></use></svg><span class="sr-only">Select a category</span></button>
+                </div>
+            </div>
+            
+            <div  class="cat-menu-collapse collapse" id="collapse-menu">
+                <div class="cat-menu-list">
+                    <ul> 
+                    <li class="catalog-genres-item"><a href="https://traidmod.net/games/">ألعاب</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/arcade/">أركيد</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/action/">أكشن</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/cooking-games/">ألعاب طبخ</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/puzzle/">ألغاز</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/strategy/">استراتيجية</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/sports-games/">رياضة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/racing/">سباق</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/casual/">كاجوال</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/simulation/">محاكاة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/adventure/">مغامرة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/games/music/">موسيقى</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/">تطبيقات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/tools/">أدوات مساعدة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/islamic/">إسلامي</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/social/">التواصل</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/music-and-audio/">الموسيقي والصوت</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/anime/">انمي</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/live-streaming/">بث مباشر</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/files-downloaders/">تحميل الملفات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/customization/">تخصيص</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/entertainment/">ترفيه</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/vpn/">تطبيقات VPN</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/plus-apps/">تطبيقات بلس</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/photo-editors/">تعديل الصور</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/video-editors/">تعديل الفيديو</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/educational/">تعليمي</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/ai-apps/">ذكاء اصطناعي</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/sports/">رياضة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/banks/">شئون مالية وبنوك</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/networks/">شبكات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/health-and-fitness/">صحة ولياقة بدنية</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/pdf-documents/">عرض وتحرير الملفات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/art-and-design/">فن وتصميم</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/translation/">لغات وترجمة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/keyboards/">لوحات مفاتيح</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/apps-stores/">متاجر التطبيقات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/browsers/">متصفحات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/file-sharing/">مشاركة الملفات</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/media-players/">مشغلات الميديا</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/app/caller-id/">هوية المتصل</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/windows/">ويندوز</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/windows/tools-windows/">أدوات مساعدة</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/windows/entertainment-windows/">ترفيه</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/windows/social-networks/">تواصل</a></li><li class="catalog-genres-item"><a href="https://traidmod.net/windows/simulators/">محاكيات</a></li>                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i class="bg-clouds"></i>
+    </div>
+    
+    <div  class="page-cat-bg">
+        <div  class="wrp page-cat-cont">
+			            <center><!-- TraidMod Header -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4869407411072670"
+     data-ad-slot="3102255182"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><div class="clearfix"></div></center>
+                <div  class="entry-listpage list-c6">	 
+			
+                 
+                                                                       <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E" alt="Stunt Bike Extreme مهكرة" data-lazy-src="https://traidmod.net/wp-content/uploads/2025/03/Stunt-Bike-Extreme-Logo-192x192.webp" ><noscript><img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/03/Stunt-Bike-Extreme-Logo-192x192.webp" alt="Stunt Bike Extreme مهكرة" ></noscript>
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/stunt-bike-extreme/"><span>
+		Stunt Bike Extreme مهكرة</span></a></h2>
+		<span class="genre truncate">سباق</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">5.1 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">0.520</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/03/Carrion-Logo-192x192.webp" alt="Carrion مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/carrion/"><span>
+		Carrion مهكرة</span></a></h2>
+		<span class="genre truncate">أكشن</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">6.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.0.38</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/03/Prison-Life-Logo-192x192.webp" alt="Prison Life مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/prison-life/"><span>
+		Prison Life مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">6.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">37.0.0</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/03/My-Perfect-Hotel-Logo-192x192.webp" alt="My Perfect Hotel مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/my-perfect-hotel/"><span>
+		My Perfect Hotel مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">8.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.18.0</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/Slugterra-Slug-it-Out-2-Logo-192x192.webp" alt="Slugterra Slug it Out 2 مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/slugterra-slug-it-out-2/"><span>
+		Slugterra Slug it Out 2 مهكرة</span></a></h2>
+		<span class="genre truncate">كاجوال</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">7.1 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">5.6.0</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/Ojol-The-Game-Logo-192x192.webp" alt="Ojol The Game مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/ojol-the-game/"><span>
+		Ojol The Game مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">6.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">3.3.1</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/Outlets-Rush-Logo-192x192.webp" alt="Outlets Rush مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/outlets-rush/"><span>
+		Outlets Rush مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">6.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.59.0</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/Moto-Wheelie-3D-Logo-192x192.webp" alt="Moto Wheelie 3D مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/moto-wheelie-3d/"><span>
+		Moto Wheelie 3D مهكرة</span></a></h2>
+		<span class="genre truncate">سباق</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">4.4 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">0.63</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/Swamp-Attack-Logo-192x192.webp" alt="Swamp Attack مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/swamp-attack/"><span>
+		Swamp Attack مهكرة</span></a></h2>
+		<span class="genre truncate">أكشن</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">7.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">4.2.6.0</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/Stick-Demon-Shadow-Fight-Logo-192x192.webp" alt="Stick Demon Shadow Fight مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/stick-demon-shadow-fight/"><span>
+		Stick Demon Shadow Fight مهكرة</span></a></h2>
+		<span class="genre truncate">أكشن</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">7.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.15</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-جديد{color: var(--colorsvg)}.label-جديد::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-جديد">جديد</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2025/02/The-Sims-Mobile-Logo-192x192.webp" alt="The Sims Mobile مهكرة" >
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/the-sims-mobile/"><span>
+		The Sims Mobile مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">5.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">48.0.3.159553</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/07/Minecraft-Original-Apk-Logo-192x192.webp" alt="Minecraft الأصلية" >
+		                 
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/minecraft-original/"><span>
+		Minecraft الأصلية</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">8.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.21.70.24</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/07/Minecraft-Story-Mode-Logo-192x192.webp" alt="Minecraft Story Mode" >
+		                 
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/minecraft-story-mode/"><span>
+		Minecraft Story Mode</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">8.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.21.70.24</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E" alt="Minecraft Pocket Edition" data-lazy-src="https://traidmod.net/wp-content/uploads/2024/06/Minecraft-Pocket-Edition-Logo-192x192.webp" ><noscript><img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/06/Minecraft-Pocket-Edition-Logo-192x192.webp" alt="Minecraft Pocket Edition" ></noscript>
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/minecraft-pocket-edition/"><span>
+		Minecraft Pocket Edition</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">8.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.21.70.24</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E" alt="Minecraft مهكرة" data-lazy-src="https://traidmod.net/wp-content/uploads/2024/06/Minecraft-Logo-192x192.webp" ><noscript><img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/06/Minecraft-Logo-192x192.webp" alt="Minecraft مهكرة" ></noscript>
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/minecraft/"><span>
+		Minecraft مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">8.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.21.70.24</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E" alt="Zombie Gunship Survival مهكرة" data-lazy-src="https://traidmod.net/wp-content/uploads/2024/10/Zombie-Gunship-Survival-Logo-192x192.webp" ><noscript><img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/10/Zombie-Gunship-Survival-Logo-192x192.webp" alt="Zombie Gunship Survival مهكرة" ></noscript>
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/zombie-gunship-survival/"><span>
+		Zombie Gunship Survival مهكرة</span></a></h2>
+		<span class="genre truncate">أكشن</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">6.0 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">1.7.20</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E" alt="Lords Mobile مهكرة" data-lazy-src="https://traidmod.net/wp-content/uploads/2024/05/Lords-Mobile-Logo-192x192.webp" ><noscript><img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/05/Lords-Mobile-Logo-192x192.webp" alt="Lords Mobile مهكرة" ></noscript>
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/lords-mobile/"><span>
+		Lords Mobile مهكرة</span></a></h2>
+		<span class="genre truncate">استراتيجية</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">5.1 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">2.153</span></li>
+		</ul>
+	</div>
+</div>                                                   <style>.label-تحديث{color: var(--colorsvg)}.label-تحديث::before{box-shadow:0 .25rem .5rem 0 var(--rgbacolor)}</style>
+
+<div class="entry entry-app">
+	<div class="item">
+		<span class="label label-تحديث">تحديث</span>		<figure class="img">
+		<img width="192" height="192" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20192%20192'%3E%3C/svg%3E" alt="Barbie Dreamhouse مهكرة" data-lazy-src="https://traidmod.net/wp-content/uploads/2024/02/Barbie-Dreamhouse-Logo-192x192.webp" ><noscript><img width="192" height="192" src="https://traidmod.net/wp-content/uploads/2024/02/Barbie-Dreamhouse-Logo-192x192.webp" alt="Barbie Dreamhouse مهكرة" ></noscript>
+		<span class="post__modpaid">مهكر</span>                   
+		</figure>
+		<h2 class="title"><a class="item-link" href="https://traidmod.net/barbie-dreamhouse/"><span>
+		Barbie Dreamhouse مهكرة</span></a></h2>
+		<span class="genre truncate">محاكاة</span>				<ul class="entry-app-info">
+		<li><svg width="24" height="24"><use xlink:href="#i__android"></use></svg>
+		<span class="truncate">5.1 والأحدث</span></li>
+		<li><svg width="24" height="24"><use xlink:href="#i__vers"></use></svg>
+		<span class="truncate">2025.1.1</span></li>
+		</ul>
+	</div>
+</div>                                                            
+			</div>
+				 
+	<div  class="navigation">
+		<span class="page_prev" title="الصفحة السابقة">
+					</span>
+		<div class="pages">
+			<nav class="pages-list"><span>1</a></span><a href='https://traidmod.net/games/page/2/'>2</a><a href='https://traidmod.net/games/page/3/'>3</a><a href='https://traidmod.net/games/page/4/'>4</a><a href='https://traidmod.net/games/page/5/'>5</a><a href='https://traidmod.net/games/page/6/'>6</a><span class="nav_ext">...</span><a href='https://traidmod.net/games/page/21/'  >22</a></nav>
+		</div>
+		<span class="page_next" title="الصفحة التالية">
+			<a href="https://traidmod.net/games/page/2/" ><svg width="24" height="24"><use xlink:href="#i__arrowleft"></use></svg><span class="sr-only">Next</span></a>		</span>
+	</div>
+ 
+			
+        </div>
+    </div>
+    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+             
+            <symbol id="i__search" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+            </symbol>
+            <symbol id="i__user" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z" />
+            </symbol>
+            <symbol id="i__gamepad" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M21.58,16.09l-1.09-7.66C20.21,6.46,18.52,5,16.53,5H7.47C5.48,5,3.79,6.46,3.51,8.43l-1.09,7.66 C2.2,17.63,3.39,19,4.94,19h0c0.68,0,1.32-0.27,1.8-0.75L9,16h6l2.25,2.25c0.48,0.48,1.13,0.75,1.8,0.75h0 C20.61,19,21.8,17.63,21.58,16.09z M11,11H9v2H8v-2H6v-1h2V8h1v2h2V11z M15,10c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1 C16,9.55,15.55,10,15,10z M17,13c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C18,12.55,17.55,13,17,13z" />
+            </symbol>
+            <symbol id="i__apps" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z" />
+            </symbol>
+            <symbol id="i__cup" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19,5h-2V4c0-0.55-0.45-1-1-1H8C7.45,3,7,3.45,7,4v1H5C3.9,5,3,5.9,3,7v1c0,2.55,1.92,4.63,4.39,4.94 c0.63,1.5,1.98,2.63,3.61,2.96V19H8c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h8c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1h-3v-3.1 c1.63-0.33,2.98-1.46,3.61-2.96C19.08,12.63,21,10.55,21,8V7C21,5.9,20.1,5,19,5z M5,8V7h2v3.82C5.84,10.4,5,9.3,5,8z M19,8 c0,1.3-0.84,2.4-2,2.82V7h2V8z" />
+            </symbol>
+            <symbol id="i__flash" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M8,4v9a1,1,0,0,0,1,1h2v7.15a.5.5,0,0,0,.93.25l5.19-8.9a1,1,0,0,0-.37-1.37,1.05,1.05,0,0,0-.49-.13H14l2.49-6.65a1,1,0,0,0-.57-1.28A.92.92,0,0,0,15.56,3H9A1,1,0,0,0,8,4Z" />
+            </symbol>
+            <symbol id="i__coms" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12,23h0L9,20H5a2,2,0,0,1-2-2V4A2,2,0,0,1,5,2H19a2,2,0,0,1,2,2V18a2,2,0,0,1-2,2H15Zm4-13a1,1,0,1,0,1,1A1,1,0,0,0,16,10Zm-4,0a1,1,0,1,0,1,1A1,1,0,0,0,12,10ZM8,10a1,1,0,1,0,1,1A1,1,0,0,0,8,10Z" />
+            </symbol>
+            <symbol id="i__stats" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2s-2 .9-2 2v12c0 1.1.9 2 2 2zm-6 0c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2s-2 .9-2 2v4c0 1.1.9 2 2 2zm10-9v7c0 1.1.9 2 2 2s2-.9 2-2v-7c0-1.1-.9-2-2-2s-2 .9-2 2z" />
+            </symbol>
+            <symbol id="i__close" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z" />
+            </symbol>
+            <symbol id="i__order" viewBox="0 0 32 32">
+                <path fill="#fede4a" d="M30,26h0a2,2,0,0,1,0-4,2,2,0,0,0,0-4H26a2,2,0,0,1,0-4h1a2,2,0,0,0,0-4H17a2,2,0,0,1,0-4h4a2,2,0,0,0,0-4H4A2,2,0,0,0,4,6H5a2,2,0,0,1,0,4H2a2,2,0,0,0,0,4H5a2,2,0,0,1,0,4,2,2,0,0,0,0,4H9a2,2,0,0,1,0,4H7a2,2,0,0,0,0,4H30a2,2,0,0,0,0-4Z" /><path fill="#4bca6f" d="M10,5H24a2,2,0,0,1,2,2V26a3,3,0,0,1-3,3H10a2,2,0,0,1-2-2V7A2,2,0,0,1,10,5Z" /><path fill="#fff" d="M16,18V15H13a1,1,0,0,1,0-2h3V10a1,1,0,0,1,2,0v3h3a1,1,0,0,1,0,2H18v3a1,1,0,0,1-2,0Z" /><path fill="#27987d" d="M20,26V24h0a2,2,0,0,0-2-2H4a2,2,0,0,0-2,2v2a3,3,0,0,0,3,3H23A3,3,0,0,1,20,26Z" />
+            </symbol>
+            <symbol id="i__android" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M7.2,16.8a.8.8,0,0,0,.8.8h.8v2.8a1.2,1.2,0,0,0,2.4,0V17.6h1.6v2.8a1.2,1.2,0,0,0,2.4,0h0V17.6H16a.8.8,0,0,0,.8-.8h0v-8H7.2Zm-2-8A1.2,1.2,0,0,0,4,10H4v5.6a1.2,1.2,0,0,0,2.4,0h0V10A1.2,1.2,0,0,0,5.2,8.8Zm13.6,0A1.2,1.2,0,0,0,17.6,10v5.6a1.2,1.2,0,0,0,2.4,0V10a1.2,1.2,0,0,0-1.2-1.2Zm-4-4.67,1-1a.41.41,0,0,0,0-.57h0a.39.39,0,0,0-.56,0h0L14.11,3.7A4.68,4.68,0,0,0,12,3.2a4.76,4.76,0,0,0-2.13.5L8.68,2.52a.4.4,0,0,0-.57,0h0a.41.41,0,0,0,0,.57h0l1.05,1A4.78,4.78,0,0,0,7.2,8h9.6A4.76,4.76,0,0,0,14.82,4.13ZM10.4,6.4H9.6V5.6h.8Zm4,0h-.8V5.6h.8Z" />
+            </symbol>
+            <symbol id="i__vers" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 2.02c-5.51 0-9.98 4.47-9.98 9.98s4.47 9.98 9.98 9.98 9.98-4.47 9.98-9.98S17.51 2.02 12 2.02zm-.52 15.86v-4.14H8.82c-.37 0-.62-.4-.44-.73l3.68-7.17c.23-.47.94-.3.94.23v4.19h2.54c.37 0 .61.39.45.72l-3.56 7.12c-.24.48-.95.31-.95-.22z" />
+            </symbol>
+            <symbol id="i__info" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 15c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1s1 .45 1 1v4c0 .55-.45 1-1 1zm1-8h-2V7h2v2z" />
+            </symbol>
+            <symbol id="i__arrowleft" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" />
+            </symbol>
+            <symbol id="i__arrowright" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z" />
+            </symbol>
+            <symbol id="i__keyright" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z" />
+            </symbol>
+            <symbol id="i__getapp" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M16.59 9H15V4c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v5H7.41c-.89 0-1.34 1.08-.71 1.71l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.63-.63.19-1.71-.7-1.71zM5 19c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1H6c-.55 0-1 .45-1 1z" />
+            </symbol>
+            <symbol id="i__scrollup" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M8.06,11.71,12,7.83l3.88,3.88a1,1,0,1,0,1.52-1.3.57.57,0,0,0-.11-.11L12.65,5.71a1,1,0,0,0-1.41,0L6.65,10.3a1,1,0,0,0,1.41,1.41Zm9.18,5.17-4.59-4.59a1,1,0,0,0-1.41,0L6.65,16.88a1,1,0,0,0,1.41,1.41L12,14.41l3.88,3.88A1,1,0,1,0,17.35,17Z" />
+            </symbol>
+            <symbol id="i__reply" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M10 9V7.41c0-.89-1.08-1.34-1.71-.71L3.7 11.29c-.39.39-.39 1.02 0 1.41l4.59 4.59c.63.63 1.71.19 1.71-.7V14.9c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
+            </symbol>
+            <symbol id="i__moon" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M12,2.73a.5.5,0,0,0-.26-.66.49.49,0,0,0-.24,0A10,10,0,1,0,20.2,17.71a.51.51,0,0,0-.11-.7.43.43,0,0,0-.22-.09A10,10,0,0,1,12,2.73Z" />
+            </symbol>
+            <symbol id="i__sun" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M6.06,4.64l-.39-.39a1,1,0,0,0-1.4,0h0a1,1,0,0,0,0,1.4l.38.39a1,1,0,0,0,1.41,0h0A1,1,0,0,0,6.06,4.64ZM3,11H2a1,1,0,0,0-1,1H1a1,1,0,0,0,1,1H3a1,1,0,0,0,1-1H4A1,1,0,0,0,3,11Zm9-9.95h0a1,1,0,0,0-1,1V3a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1.05Zm7.74,3.21a1,1,0,0,0-1.41,0L18,4.64A1,1,0,0,0,18,6h0a1,1,0,0,0,1.4,0l.39-.39A1,1,0,0,0,19.76,4.26ZM18,19.36l.39.39a1,1,0,0,0,1.4,0,1,1,0,0,0,0-1.41L19.36,18A1,1,0,0,0,18,19.36ZM20,12h0a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1h0a1,1,0,0,0-1-1H21A1,1,0,0,0,20,12ZM12,6a6,6,0,1,0,6,6A6,6,0,0,0,12,6Zm0,17h0a1,1,0,0,0,1-1V21a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1v1A1,1,0,0,0,12,23ZM4.26,19.74a1,1,0,0,0,1.4,0l.39-.39a1,1,0,0,0,0-1.4H6a1,1,0,0,0-1.41,0l-.39.39A1,1,0,0,0,4.26,19.74Z" />
+            </symbol>
+            <symbol id="i__update" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M21,9.5V4.21a.49.49,0,0,0-.85-.35L18.37,5.64a9,9,0,1,0,2.56,7.48,1,1,0,0,0-1-1.12,1,1,0,0,0-1,.86,7,7,0,0,1-7,6.14A7.1,7.1,0,0,1,5,12.1a7,7,0,0,1,12-5L14.86,9.14a.5.5,0,0,0,.35.86H20.5A.5.5,0,0,0,21,9.5Z" />
+            </symbol>
+            <symbol id="i__cat" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M8.28,11h7.43a1,1,0,0,0,.85-1.52L12.85,3.4a1,1,0,0,0-1.7,0L7.43,9.48A1,1,0,0,0,8.28,11Zm9.22,2A4.5,4.5,0,1,0,22,17.5,4.49,4.49,0,0,0,17.5,13Zm-7.5.5H4a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1v-6A1,1,0,0,0,10,13.5Z" />
+            </symbol>
+            <symbol id="i__play" viewBox="0 0 24 24">
+                <path clip-rule="evenodd" d="M2.25 4.54927C2.25 2.83368 4.093 1.74925 5.5927 2.58242L19.004 10.0331C20.5471 10.8904 20.5471 13.1096 19.004 13.9669L5.5927 21.4176C4.093 22.2507 2.25 21.1663 2.25 19.4507V17C2.25 16.5858 2.58579 16.25 3 16.25C3.41421 16.25 3.75 16.5858 3.75 17V19.4507C3.75 20.0226 4.36433 20.3841 4.86423 20.1063L18.2755 12.6556C18.7899 12.3699 18.7899 11.6301 18.2755 11.3444L4.86423 3.89365C4.36433 3.61593 3.75 3.97741 3.75 4.54927V13C3.75 13.4142 3.41421 13.75 3 13.75C2.58579 13.75 2.25 13.4142 2.25 13V4.54927Z" fill="currentColor" fill-rule="evenodd" /><path clip-rule="evenodd" d="M16.0415 8.48107C16.3281 8.78013 16.318 9.2549 16.0189 9.54149L4.01893 21.0415C3.71987 21.3281 3.24511 21.318 2.95851 21.0189C2.67191 20.7199 2.68201 20.2451 2.98107 19.9585L14.9811 8.45851C15.2801 8.17191 15.7549 8.18201 16.0415 8.48107Z" fill="currentColor" fill-rule="evenodd" /><path clip-rule="evenodd" d="M16.0415 15.5189C16.3281 15.2199 16.318 14.7451 16.0189 14.4585L4.01893 2.95851C3.71987 2.67191 3.24511 2.68201 2.95851 2.98107C2.67191 3.28013 2.68201 3.75489 2.98107 4.04149L14.9811 15.5415C15.2801 15.8281 15.7549 15.818 16.0415 15.5189Z" fill="currentColor" fill-rule="evenodd" />
+            </symbol>
+            <symbol id="i__linkopen" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M9 6c0 .56.45 1 1 1h5.59L4.7 17.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L17 8.41V14c0 .55.45 1 1 1s1-.45 1-1V6c0-.55-.45-1-1-1h-8c-.55 0-1 .45-1 1z" />
+            </symbol>
+            <symbol id="i__settings" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z" />
+            </symbol>
+            <symbol id="i__telegram" viewBox="0 0 40 40">
+                <path fill="#c8daea" d="M14.87,32.83c-.91,0-.76-.34-1.07-1.2l-2.67-8.78L31.67,10.67Z" /><path fill="#a9c9dd" d="M14.87,32.83a1.77,1.77,0,0,0,1.4-.7L20,28.5l-4.66-2.8Z" /><path fill="#eff7fc" d="M15.34,25.7,26.63,34c1.28.71,2.21.35,2.53-1.2l4.6-21.64C34.23,9.31,33,8.45,31.81,9l-27,10.4C3,20.15,3,21.18,4.5,21.63l6.92,2.16,16-10.1c.75-.46,1.45-.22.88.29Z" />
+            </symbol>
+            <symbol id="i__hot" viewBox="0 0 24 24">
+                <path fill="currentColor" d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z" />
+            </symbol>
+        </defs>
+    </svg>
+ 
+<footer  class="footer">
+        <div  class="wrp-min">
+            <div  class="footer-panel">
+                <a class="logotype scrollup" style="display:none;" href="#" title="إينزو مود">
+                    <span class="sr-only">شعار إينزو مود</span>
+                    <i class="logo-icon"><img alt="إينزو مود" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2036%2036'%3E%3C/svg%3E"  width="36" height="36" data-lazy-src="https://traidmod.net/wp-content/uploads/2023/06/logo1.webp"><noscript><img alt="إينزو مود" src="https://traidmod.net/wp-content/uploads/2023/06/logo1.webp"  width="36" height="36"></noscript></i>
+				</a>
+                <a class="upper scrollup" href="#" title="إينزو مود"><span class="sr-only">أنتقل للأعلى</span><svg width="24" height="24"><use xlink:href="#i__scrollup"></use></svg></a>
+                <div class="footer-cont">
+                    <div class="copyright">جميع الحقوق محفوظة لـ <a href='/'>إينزو مود</a> © 2025</div>
+                     
+        <a href="https://www.facebook.com/TraidMod" rel="nofollow noreferrer" target="_blank" title="Follow traidmod.net on Facebook" aria-label="Facebook" ><svg width="30" height="30"><use xlink:href="#i__icons_facebook"></use></svg></a>
+        <a href="https://twitter.com/TraidMod" rel="nofollow noreferrer" target="_blank" title="Follow traidmod.net on Twitter" aria-label="Twitter"><svg width="30" height="30"><use xlink:href="#i__icons_twitter"></use></svg></a>
+        <a href="https://www.instagram.com/traidmod/" rel="nofollow noreferrer" target="_blank" title="Follow traidmod.net on Instagram" aria-label="Instagram"><svg width="30" height="30"><use xlink:href="#i__icons_instagram"></use></svg></a>
+        <a href="https://www.youtube.com/@TraidMod" rel="nofollow noreferrer" target="_blank" title="Follow traidmod.net on Youtube" aria-label="Youtube"><svg width="30" height="30"><use xlink:href="#i__icons_youtube"></use></svg></a>
+        <a href="https://t.me/+Hakzl9UR5EQ2MzNk" rel="nofollow noreferrer" target="_blank" title="Follow traidmod.net on Telegram" aria-label="Telegram"><svg width="30" height="30"><use xlink:href="#i__icons_telegram"></use></svg></a>
+          
+                </div>
+            </div>
+        </div>
+    </footer>
+        </div>
+    <div  class="modal fade login_modal" id="login" tabindex="-1" role="dialog" aria-labelledby="login_dialog" aria-hidden="true">
+        <div  class="modal-dialog modal-dialog-centered" role="document">
+            <div  class="modal-content">
+                <div class="modal-head">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <svg width="24" height="24"><use xlink:href="#i__close"></use></svg>
+                    </button>
+                    <h3 class="modal-title" >تسجيل دخول إلى traidmod.net</h3>
+                                                                </div>
+                <div class="modal-body">
+                    <form name="loginform" id="loginform"  class="login_form" method="post" action="https://traidmod.net/wp-login.php">
+                        <label class="form-group">
+                            <span class="c-muted">تسجيل دخول</span>
+                            <input class="form-control" type="text" name="log" id="user_login" required>
+                        </label>
+                        <label class="form-group">
+                            <a class="f-right" href="https://traidmod.net/wp-login.php?action=lostpassword">نسيت كلمة المرور؟</a>
+                            <span class="c-muted">كلمة المرور</span>
+                            <input class="form-control" type="password" name="pwd" id="user_pass" required>
+                        </label>
+                        <input name="login" type="hidden" name="wp-submit" id="wp-submit" value="submit">
+                        <div class="form-submit btn-group">
+                            <button class="btn btn-block s-green" onclick="submit();" name="wp-submit" id="wp-submit" type="submit">تسجيل دخول</button>
+                            <a href="https://traidmod.net/register/" class="btn btn-block s-yellow">صفحة التسجيل</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="background bg-style-1">
+    <i class="bg-circle-purple"></i>
+    <i class="bg-circle-yellow bgc-1"></i>
+    <i class="bg-circle-yellow bgc-2"></i>
+    <i class="bg-circle-green"></i>
+    <i class="bg-clouds"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2808 800" width="2808" height="800"><path class="cloud-c1" d="M2066,300h-2a50,50,0,0,0,0,100h2a50,50,0,0,0,0-100Zm459.27-100H2758a50,50,0,0,0,0-100H2577.58a50,50,0,0,1,0-100H2126.45a50,50,0,0,1-.06,100H1970a50,50,0,0,0,0,100h232.45a50,50,0,0,1-.08,100H2186a50,50,0,0,0,0,100h104.46a50,50,0,0,1,0,100H2282a50,50,0,0,0,0,100h428a50,50,0,0,0,0-100H2601.55a50,50,0,0,1-.3-100H2606a50,50,0,0,0,0-100h-80.45a50,50,0,1,1-.28-100Z" /><path class="cloud-c2" d="M2142,324H1969.55a50,50,0,0,1,0-100H1998a50,50,0,0,0,0-100H1770a50,50,0,0,0,0,100h14.26a50,50,0,1,1,0,100H1718a50,50,0,0,0,0,100h424a50,50,0,0,0,0-100Zm132-200H2170a50,50,0,0,0,0,100h104a50,50,0,0,0,0-100Z" /><path class="cloud-c1" d="M962,100H781.58a50,50,0,0,1,0-100H206.45a50,50,0,0,1-.06,100H50a50,50,0,0,0,0,100H282.45a50,50,0,0,1-.08,100H266a50,50,0,0,0,0,100H370.46a50,50,0,1,1,0,100H362a50,50,0,0,0,0,100h8.46a50,50,0,1,1,0,100h-24a50,50,0,0,0,0,100H590a50,50,0,0,0,0-100H509.55a50,50,0,1,1,.08-100H790a50,50,0,0,0,0-100H681.55a50,50,0,0,1-.3-100H686a50,50,0,0,0,0-100H605.55a50,50,0,1,1-.28-100H962a50,50,0,0,0,0-100Zm168,0h-28a50,50,0,0,0,0,100h28a50,50,0,0,0,0-100Z" /><path class="cloud-c2" d="M1086,244H913.57a50,50,0,0,1,0-100H962a50,50,0,0,0,0-100H654a50,50,0,0,0,0,100h28a50,50,0,0,1,0,100H642a50,50,0,0,0,0,100h444a50,50,0,0,0,0-100Z" /></svg></i>
+</div>
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <symbol id="i__search" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+        </symbol>
+        <symbol id="i__user" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v1c0 .55.45 1 1 1h14c.55 0 1-.45 1-1v-1c0-2.66-5.33-4-8-4z" />
+        </symbol>
+        <symbol id="i__gamepad" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M21.58,16.09l-1.09-7.66C20.21,6.46,18.52,5,16.53,5H7.47C5.48,5,3.79,6.46,3.51,8.43l-1.09,7.66 C2.2,17.63,3.39,19,4.94,19h0c0.68,0,1.32-0.27,1.8-0.75L9,16h6l2.25,2.25c0.48,0.48,1.13,0.75,1.8,0.75h0 C20.61,19,21.8,17.63,21.58,16.09z M11,11H9v2H8v-2H6v-1h2V8h1v2h2V11z M15,10c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1 C16,9.55,15.55,10,15,10z M17,13c-0.55,0-1-0.45-1-1c0-0.55,0.45-1,1-1s1,0.45,1,1C18,12.55,17.55,13,17,13z" />
+        </symbol>
+        <symbol id="i__apps" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z" />
+        </symbol>
+        <symbol id="i__cup" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19,5h-2V4c0-0.55-0.45-1-1-1H8C7.45,3,7,3.45,7,4v1H5C3.9,5,3,5.9,3,7v1c0,2.55,1.92,4.63,4.39,4.94 c0.63,1.5,1.98,2.63,3.61,2.96V19H8c-0.55,0-1,0.45-1,1v0c0,0.55,0.45,1,1,1h8c0.55,0,1-0.45,1-1v0c0-0.55-0.45-1-1-1h-3v-3.1 c1.63-0.33,2.98-1.46,3.61-2.96C19.08,12.63,21,10.55,21,8V7C21,5.9,20.1,5,19,5z M5,8V7h2v3.82C5.84,10.4,5,9.3,5,8z M19,8 c0,1.3-0.84,2.4-2,2.82V7h2V8z" />
+        </symbol>
+        <symbol id="i__flash" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M8,4v9a1,1,0,0,0,1,1h2v7.15a.5.5,0,0,0,.93.25l5.19-8.9a1,1,0,0,0-.37-1.37,1.05,1.05,0,0,0-.49-.13H14l2.49-6.65a1,1,0,0,0-.57-1.28A.92.92,0,0,0,15.56,3H9A1,1,0,0,0,8,4Z" />
+        </symbol>
+        <symbol id="i__coms" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12,23h0L9,20H5a2,2,0,0,1-2-2V4A2,2,0,0,1,5,2H19a2,2,0,0,1,2,2V18a2,2,0,0,1-2,2H15Zm4-13a1,1,0,1,0,1,1A1,1,0,0,0,16,10Zm-4,0a1,1,0,1,0,1,1A1,1,0,0,0,12,10ZM8,10a1,1,0,1,0,1,1A1,1,0,0,0,8,10Z" />
+        </symbol>
+        <symbol id="i__stats" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2s-2 .9-2 2v12c0 1.1.9 2 2 2zm-6 0c1.1 0 2-.9 2-2v-4c0-1.1-.9-2-2-2s-2 .9-2 2v4c0 1.1.9 2 2 2zm10-9v7c0 1.1.9 2 2 2s2-.9 2-2v-7c0-1.1-.9-2-2-2s-2 .9-2 2z" />
+        </symbol>
+        <symbol id="i__close" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z" />
+        </symbol>
+        <symbol id="i__order" viewBox="0 0 32 32">
+            <path fill="#fede4a" d="M30,26h0a2,2,0,0,1,0-4,2,2,0,0,0,0-4H26a2,2,0,0,1,0-4h1a2,2,0,0,0,0-4H17a2,2,0,0,1,0-4h4a2,2,0,0,0,0-4H4A2,2,0,0,0,4,6H5a2,2,0,0,1,0,4H2a2,2,0,0,0,0,4H5a2,2,0,0,1,0,4,2,2,0,0,0,0,4H9a2,2,0,0,1,0,4H7a2,2,0,0,0,0,4H30a2,2,0,0,0,0-4Z" /><path fill="#4bca6f" d="M10,5H24a2,2,0,0,1,2,2V26a3,3,0,0,1-3,3H10a2,2,0,0,1-2-2V7A2,2,0,0,1,10,5Z" /><path fill="#fff" d="M16,18V15H13a1,1,0,0,1,0-2h3V10a1,1,0,0,1,2,0v3h3a1,1,0,0,1,0,2H18v3a1,1,0,0,1-2,0Z" /><path fill="#27987d" d="M20,26V24h0a2,2,0,0,0-2-2H4a2,2,0,0,0-2,2v2a3,3,0,0,0,3,3H23A3,3,0,0,1,20,26Z" />
+        </symbol>
+        <symbol id="i__android" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M7.2,16.8a.8.8,0,0,0,.8.8h.8v2.8a1.2,1.2,0,0,0,2.4,0V17.6h1.6v2.8a1.2,1.2,0,0,0,2.4,0h0V17.6H16a.8.8,0,0,0,.8-.8h0v-8H7.2Zm-2-8A1.2,1.2,0,0,0,4,10H4v5.6a1.2,1.2,0,0,0,2.4,0h0V10A1.2,1.2,0,0,0,5.2,8.8Zm13.6,0A1.2,1.2,0,0,0,17.6,10v5.6a1.2,1.2,0,0,0,2.4,0V10a1.2,1.2,0,0,0-1.2-1.2Zm-4-4.67,1-1a.41.41,0,0,0,0-.57h0a.39.39,0,0,0-.56,0h0L14.11,3.7A4.68,4.68,0,0,0,12,3.2a4.76,4.76,0,0,0-2.13.5L8.68,2.52a.4.4,0,0,0-.57,0h0a.41.41,0,0,0,0,.57h0l1.05,1A4.78,4.78,0,0,0,7.2,8h9.6A4.76,4.76,0,0,0,14.82,4.13ZM10.4,6.4H9.6V5.6h.8Zm4,0h-.8V5.6h.8Z" />
+        </symbol>
+        <symbol id="i__vers" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 2.02c-5.51 0-9.98 4.47-9.98 9.98s4.47 9.98 9.98 9.98 9.98-4.47 9.98-9.98S17.51 2.02 12 2.02zm-.52 15.86v-4.14H8.82c-.37 0-.62-.4-.44-.73l3.68-7.17c.23-.47.94-.3.94.23v4.19h2.54c.37 0 .61.39.45.72l-3.56 7.12c-.24.48-.95.31-.95-.22z" />
+        </symbol>
+        <symbol id="i__info" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 15c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1s1 .45 1 1v4c0 .55-.45 1-1 1zm1-8h-2V7h2v2z" />
+        </symbol>
+        <symbol id="i__arrowleft" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" />
+        </symbol>
+        <symbol id="i__arrowright" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z" />
+        </symbol>
+        <symbol id="i__keyright" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M9.29 15.88L13.17 12 9.29 8.12c-.39-.39-.39-1.02 0-1.41.39-.39 1.02-.39 1.41 0l4.59 4.59c.39.39.39 1.02 0 1.41L10.7 17.3c-.39.39-1.02.39-1.41 0-.38-.39-.39-1.03 0-1.42z" />
+        </symbol>
+        <symbol id="i__getapp" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M16.59 9H15V4c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v5H7.41c-.89 0-1.34 1.08-.71 1.71l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.63-.63.19-1.71-.7-1.71zM5 19c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1H6c-.55 0-1 .45-1 1z" />
+        </symbol>
+        <symbol id="i__scrollup" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M8.06,11.71,12,7.83l3.88,3.88a1,1,0,1,0,1.52-1.3.57.57,0,0,0-.11-.11L12.65,5.71a1,1,0,0,0-1.41,0L6.65,10.3a1,1,0,0,0,1.41,1.41Zm9.18,5.17-4.59-4.59a1,1,0,0,0-1.41,0L6.65,16.88a1,1,0,0,0,1.41,1.41L12,14.41l3.88,3.88A1,1,0,1,0,17.35,17Z" />
+        </symbol>
+        <symbol id="i__reply" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M10 9V7.41c0-.89-1.08-1.34-1.71-.71L3.7 11.29c-.39.39-.39 1.02 0 1.41l4.59 4.59c.63.63 1.71.19 1.71-.7V14.9c5 0 8.5 1.6 11 5.1-1-5-4-10-11-11z" />
+        </symbol>
+        <symbol id="i__moon" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M12,2.73a.5.5,0,0,0-.26-.66.49.49,0,0,0-.24,0A10,10,0,1,0,20.2,17.71a.51.51,0,0,0-.11-.7.43.43,0,0,0-.22-.09A10,10,0,0,1,12,2.73Z" />
+        </symbol>
+        <symbol id="i__sun" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M6.06,4.64l-.39-.39a1,1,0,0,0-1.4,0h0a1,1,0,0,0,0,1.4l.38.39a1,1,0,0,0,1.41,0h0A1,1,0,0,0,6.06,4.64ZM3,11H2a1,1,0,0,0-1,1H1a1,1,0,0,0,1,1H3a1,1,0,0,0,1-1H4A1,1,0,0,0,3,11Zm9-9.95h0a1,1,0,0,0-1,1V3a1,1,0,0,0,1,1h0a1,1,0,0,0,1-1V2A1,1,0,0,0,12,1.05Zm7.74,3.21a1,1,0,0,0-1.41,0L18,4.64A1,1,0,0,0,18,6h0a1,1,0,0,0,1.4,0l.39-.39A1,1,0,0,0,19.76,4.26ZM18,19.36l.39.39a1,1,0,0,0,1.4,0,1,1,0,0,0,0-1.41L19.36,18A1,1,0,0,0,18,19.36ZM20,12h0a1,1,0,0,0,1,1h1a1,1,0,0,0,1-1h0a1,1,0,0,0-1-1H21A1,1,0,0,0,20,12ZM12,6a6,6,0,1,0,6,6A6,6,0,0,0,12,6Zm0,17h0a1,1,0,0,0,1-1V21a1,1,0,0,0-1-1h0a1,1,0,0,0-1,1v1A1,1,0,0,0,12,23ZM4.26,19.74a1,1,0,0,0,1.4,0l.39-.39a1,1,0,0,0,0-1.4H6a1,1,0,0,0-1.41,0l-.39.39A1,1,0,0,0,4.26,19.74Z" />
+        </symbol>
+        <symbol id="i__telegram" viewBox="0 0 40 40">
+            <path fill="#c8daea" d="M14.87,32.83c-.91,0-.76-.34-1.07-1.2l-2.67-8.78L31.67,10.67Z" /><path fill="#a9c9dd" d="M14.87,32.83a1.77,1.77,0,0,0,1.4-.7L20,28.5l-4.66-2.8Z" /><path fill="#eff7fc" d="M15.34,25.7,26.63,34c1.28.71,2.21.35,2.53-1.2l4.6-21.64C34.23,9.31,33,8.45,31.81,9l-27,10.4C3,20.15,3,21.18,4.5,21.63l6.92,2.16,16-10.1c.75-.46,1.45-.22.88.29Z" />
+        </symbol>
+        <symbol id="i__hot" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M19.48,12.35c-1.57-4.08-7.16-4.3-5.81-10.23c0.1-0.44-0.37-0.78-0.75-0.55C9.29,3.71,6.68,8,8.87,13.62 c0.18,0.46-0.36,0.89-0.75,0.59c-1.81-1.37-2-3.34-1.84-4.75c0.06-0.52-0.62-0.77-0.91-0.34C4.69,10.16,4,11.84,4,14.37 c0.38,5.6,5.11,7.32,6.81,7.54c2.43,0.31,5.06-0.14,6.95-1.87C19.84,18.11,20.6,15.03,19.48,12.35z M10.2,17.38 c1.44-0.35,2.18-1.39,2.38-2.31c0.33-1.43-0.96-2.83-0.09-5.09c0.33,1.87,3.27,3.04,3.27,5.08C15.84,17.59,13.1,19.76,10.2,17.38z" />
+        </symbol>
+	    <symbol id="i__windows" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M24.71,5.49a1.24,1.24,0,0,0-1-.47L6.4,5,5.63,1.93A1.25,1.25,0,0,0,4.42,1H0V2H4.42a.25.25,0,0,1,.24.18L8.37,17.07A1.25,1.25,0,0,0,9.58,18h12a1.23,1.23,0,0,0,1.22-1L25,6.55A1.24,1.24,0,0,0,24.71,5.49ZM13,21a2,2,0,1,1-2-2A2,2,0,0,1,13,21Zm9,0a2,2,0,1,1-2-2A2,2,0,0,1,22,21Z" />
+        </symbol>		
+    </defs>
+</svg>
+<!-- <script type="rocketlazyloadscript" data-rocket-src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/js/general3.js?ver=1740632038"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/js/lazy.js?ver=1740632038"></script>
+<script type="rocketlazyloadscript" data-rocket-src="https://traidmod.net/wp-content/themes/tm-theme/assets/js/bootstrap.min.js"></script>
+<script type="rocketlazyloadscript">
+$(document).ready((function(){$("html").removeClass("load")})),$((function(){$(".dropdown-form").click((function(o){o.stopPropagation()})),$(".social-links a").on("click",(function(){var o=$(this).attr("href"),t=(screen.width-820)/2,n=(screen.height-420)/2-100;return auth_window=window.open(o,"auth_window","width=820,height=420,top="+n+",left="+t+"menubar=no,resizable=no,scrollbars=no,status=no,toolbar=no"),!1})),$(".q-search-call").on("click",(function(){return $(".q-search").toggleClass("open"),setTimeout((function(){$(".header").toggleClass("qs")}),50),!1})),$(".scrollup").click((function(){return $("html, body").animate({scrollTop:0},"fast"),!1}));var o=$("html, body");$("a.anchor").click((function(){var t=$.attr(this,"href");return o.animate({scrollTop:$(t).offset().top},500),!1})),$(".menu-toggle").on("click",(function(){return $("#mobilemenu").toggleClass("open"),setTimeout((function(){$("html").toggleClass("mm")}),50),!1}))}));
+</script>
+ 
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>		
+        <symbol id="i__icons_facebook" width="40" height="40" viewBox="0 0 40 40">
+            <path fill="var(--color_sosmed_icon)" d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"></path>
+        </symbol>		
+        <symbol id="i__icons_twitter" width="40" height="40"  viewBox="0 0 40 40">
+            <path fill="var(--color_sosmed_icon)" d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path>
+        </symbol>		
+        <symbol id="i__icons_instagram" width="40" height="40"  viewBox="0 0 40 40">
+            <path fill="var(--color_sosmed_icon)" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path>
+        </symbol>		
+        <symbol id="i__icons_youtube" width="40" height="40"  viewBox="0 0 40 40">
+            <path fill="var(--color_sosmed_icon)" d="M23.495 6.205a3.007 3.007 0 0 0-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 0 0 .527 6.205a31.247 31.247 0 0 0-.522 5.805 31.247 31.247 0 0 0 .522 5.783 3.007 3.007 0 0 0 2.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 0 0 2.088-2.088 31.247 31.247 0 0 0 .5-5.783 31.247 31.247 0 0 0-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"></path>
+        </symbol>		
+        <symbol id="i__icons_telegram" width="40" height="40"  viewBox="0 0 40 40">
+            <path fill="var(--color_sosmed_icon)" d="M23.91 3.79L20.3 20.84c-.25 1.21-.98 1.5-2 .94l-5.5-4.07-2.66 2.57c-.3.3-.55.56-1.1.56-.72 0-.6-.27-.84-.95L6.3 13.7l-5.45-1.7c-1.18-.35-1.19-1.16.26-1.75l21.26-8.2c.97-.43 1.9.24 1.53 1.73z"></path>
+        </symbol>
+        
+    </defs>
+</svg>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/wp-report-post/lib/remodal/remodal.js?ver=1740632038" id="TraidMod-remodal-js"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/cache/min/1/wp-content/plugins/announcer/public/js/script.js?ver=1740632038" id="announcer-js-js"></script>
+<script type="text/javascript" id="cld-frontend-js-extra">
+/* <![CDATA[ */
+var cld_js_object = {"admin_ajax_url":"https:\/\/traidmod.net\/wp-admin\/admin-ajax.php","admin_ajax_nonce":"775e922cf2"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/like-dislike/js/cld-frontend.js?ver=1740632038" id="cld-frontend-js"></script>
+<script type="text/javascript" id="pld-frontend-js-extra">
+/* <![CDATA[ */
+var pld_js_object = {"admin_ajax_url":"https:\/\/traidmod.net\/wp-admin\/admin-ajax.php","admin_ajax_nonce":"b1676a0b51"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/posts-like-dislike/js/pld-frontend.js?ver=1740632038" id="pld-frontend-js"></script>
+<div  class="ancr-group ancr-pos-top ancr-sticky"><div id="ancr-6000" class="ancr ancr-wrap ancr-lo-separate_column ancr-align-center ancr-has-close-btn" data-props="{&quot;status&quot;:&quot;active&quot;,&quot;display&quot;:&quot;immediate&quot;,&quot;show_on&quot;:&quot;page_scroll&quot;,&quot;show_after_duration&quot;:&quot;2&quot;,&quot;show_after_scroll&quot;:&quot;200&quot;,&quot;open_animation&quot;:&quot;slide&quot;,&quot;schedule_from&quot;:&quot;&quot;,&quot;schedule_to&quot;:&quot;&quot;,&quot;position&quot;:&quot;top&quot;,&quot;sticky&quot;:&quot;yes&quot;,&quot;layout&quot;:&quot;separate_column&quot;,&quot;container_width&quot;:&quot;80%&quot;,&quot;ticker_speed&quot;:&quot;20&quot;,&quot;close_btn&quot;:&quot;yes&quot;,&quot;close_animation&quot;:&quot;slide&quot;,&quot;close_content_click&quot;:&quot;no&quot;,&quot;auto_close&quot;:&quot;0&quot;,&quot;keep_closed&quot;:&quot;no&quot;,&quot;closed_duration&quot;:&quot;0&quot;,&quot;devices&quot;:&quot;mobile_only&quot;,&quot;id&quot;:6000}"><a href="#" class="ancr-close-btn ancr-close" title="Close"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ancr-close-icon" viewBox="0 0 50 50"><path fill="currentColor" d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"/></svg></a><div  class="ancr-container"><div class="ancr-content"><div class="ancr-inner"><p><a href="https://traidmod.net/drama-world/?utm_source=Fixed&amp;utm_medium=FloatingBanner&amp;utm_campaign=OstoraFixed" target="_blank" rel="noopener"><img class="aligncenter size-full wp-image-5998" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20250%2039'%3E%3C/svg%3E" alt="الاسطورة مهكر" width="250" height="39" data-lazy-src="https://traidmod.net/wp-content/uploads/2024/11/Drama-World-Banner.webp" /><noscript><img class="aligncenter size-full wp-image-5998" src="https://traidmod.net/wp-content/uploads/2024/11/Drama-World-Banner.webp" alt="الاسطورة مهكر" width="250" height="39" /></noscript></a></p>
+</div></div></div></div><style>
+#ancr-6000{ background:#ffffff;color:#532378 !important;border-radius:20px;box-shadow:0 2px 4px -2px rgba(0, 0, 0, 0.5); }
+#ancr-6000 .ancr-btn-primary{ background:#fff;color:#000 !important;border-radius:24px;box-shadow:0 2px 4px -2px rgba(0, 0, 0, 0.5); }
+#ancr-6000 .ancr-btn-secondary{ background:#F9DF74;color:#000 !important;border-radius:24px;box-shadow:0 2px 4px -2px rgba(0, 0, 0, 0.5); }
+#ancr-6000 .ancr-container{ max-width: 80%; } 
+#ancr-6000 .ancr-content a{color: #fff; }
+</style></div><style id='core-block-supports-inline-css' type='text/css'>
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+<link data-minify="1" rel='stylesheet' id='custom.styles-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css/custom.styles.css?ver=1740632037' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='dark.styles-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/assets/css/dark.styles.css?ver=1740632037' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='dashicons.styles-css' href='https://traidmod.net/wp-content/cache/min/1/wp-includes/css/dashicons.min.css?ver=1740632037' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='classic-theme-styles-css' href='https://traidmod.net/wp-content/cache/min/1/wp-includes/css/classic-themes.css?ver=1740632037' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='announcer-css-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/plugins/announcer/public/css/style.css?ver=1740632037' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css' href='https://traidmod.net/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=2411.1' type='text/css' media='all' />
+<style id='toc-screen-inline-css' type='text/css'>
+div#toc_container ul li {font-size: 150%;}
+</style>
+<link data-minify="1" rel='stylesheet' id='cld-font-awesome-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/posts-like-dislike/css/fontawesome/css/all.min.css?ver=1740632037' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='cld-frontend-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/like-dislike/css/cld-frontend.css?ver=1740632037' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='pld-font-awesome-css' href='https://traidmod.net/wp-content/cache/min/1/wp-content/themes/tm-theme/posts-like-dislike/css/fontawesome/css/all.min.css?ver=1740632037' type='text/css' media='all' />
+<link rel='stylesheet' id='pld-frontend-css' href='https://traidmod.net/wp-content/themes/tm-theme/posts-like-dislike/css/pld-frontend.css?ver=1.1.0' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:var(--wpr-bg-9d25ad05-c9e4-4bbc-b60b-e43d5c1463ee) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<script type="text/javascript" id="rtrar.appLocal-js-extra">
+/* <![CDATA[ */
+var rtafr = {"rules":""};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.local.js?ver=1.6.9" id="rtrar.appLocal-js"></script>
+<script type="text/javascript" id="toc-front-js-extra">
+/* <![CDATA[ */
+var tocplus = {"smooth_scroll":"1","visibility_show":"\u0625\u0638\u0647\u0627\u0631","visibility_hide":"\u0625\u062e\u0641\u0627\u0621","visibility_hide_by_default":"1","width":"Auto"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/plugins/table-of-contents-plus/front.min.js?ver=2411.1" id="toc-front-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+class RocketBrowserCompatibilityChecker {
+
+	constructor( options ) {
+		this.passiveSupported = false;
+
+		this._checkPassiveOption( this );
+		this.options = this.passiveSupported ? options : false;
+	}
+
+	/**
+	 * Initializes browser check for addEventListener passive option.
+	 *
+	 * @link https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Safely_detecting_option_support
+	 * @private
+	 *
+	 * @param self Instance of this object.
+	 * @returns {boolean}
+	 */
+	_checkPassiveOption( self ) {
+		try {
+			const options = {
+				// This function will be called when the browser attempts to access the passive property.
+				get passive() {
+					self.passiveSupported = true;
+					return false;
+				}
+			};
+
+			window.addEventListener( 'test', null, options );
+			window.removeEventListener( 'test', null, options );
+		} catch ( err ) {
+			self.passiveSupported = false;
+		}
+	}
+
+	/**
+	 * Checks if the browser supports requestIdleCallback and cancelIdleCallback. If no, shims its behavior with a polyfills.
+	 *
+	 * @link @link https://developers.google.com/web/updates/2015/08/using-requestidlecallback
+	 */
+	initRequestIdleCallback() {
+		if ( ! 'requestIdleCallback' in window ) {
+			window.requestIdleCallback = ( cb ) => {
+				const start = Date.now();
+				return setTimeout( () => {
+					cb( {
+						didTimeout: false,
+						timeRemaining: function timeRemaining() {
+							return Math.max( 0, 50 - ( Date.now() - start ) );
+						}
+					} );
+				}, 1 );
+			};
+		}
+
+		if ( ! 'cancelIdleCallback' in window ) {
+			window.cancelIdleCallback = ( id ) => clearTimeout( id );
+		}
+	}
+
+	/**
+	 * Detects if data saver mode is on.
+	 *
+	 * @link https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/save-data/#detecting_the_save-data_setting
+	 *
+	 * @returns {boolean|boolean}
+	 */
+	isDataSaverModeOn() {
+		return (
+			'connection' in navigator
+			&&
+			true === navigator.connection.saveData
+		);
+	}
+
+	/**
+	 * Checks if the browser supports link prefetch.
+	 *
+	 * @returns {boolean|boolean}
+	 */
+	supportsLinkPrefetch() {
+		const elem = document.createElement( 'link' );
+		return (
+			elem.relList
+			&&
+			elem.relList.supports
+			&&
+			elem.relList.supports( 'prefetch' )
+			&&
+			window.IntersectionObserver
+			&&
+			'isIntersecting' in IntersectionObserverEntry.prototype
+		);
+	}
+
+	isSlowConnection() {
+		return (
+			'connection' in navigator
+			&&
+			'effectiveType' in navigator.connection
+			&&
+			(
+				'2g' === navigator.connection.effectiveType
+				||
+				'slow-2g' === navigator.connection.effectiveType
+			)
+		)
+	}
+}
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/file\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/traidmod.net","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+class RocketPreloadLinks {
+
+	constructor( browser, config ) {
+		this.browser = browser;
+		this.config  = config;
+		this.options = this.browser.options;
+
+		this.prefetched = new Set;
+		this.eventTime  = null;
+		this.threshold  = 1111;
+		this.numOnHover = 0;
+	}
+
+	/**
+	 * Initializes the handler.
+	 */
+	init() {
+		if (
+			! this.browser.supportsLinkPrefetch()
+			||
+			this.browser.isDataSaverModeOn()
+			||
+			this.browser.isSlowConnection()
+		) {
+			return;
+		}
+
+		this.regex = {
+			excludeUris: RegExp( this.config.excludeUris, 'i' ),
+			images: RegExp( '.(' + this.config.imageExt + ')$', 'i' ),
+			fileExt: RegExp( '.(' + this.config.fileExt + ')$', 'i' )
+		};
+
+		this._initListeners( this );
+	}
+
+	/**
+	 * Initializes the event listeners.
+	 *
+	 * @private
+	 *
+	 * @param self instance of this object, used for binding "this" to the listeners.
+	 */
+	_initListeners( self ) {
+		// Setting onHoverDelay to -1 disables the "on-hover" feature.
+		if ( this.config.onHoverDelay > -1 ) {
+			document.addEventListener( 'mouseover', self.listener.bind( self ), self.listenerOptions );
+		}
+
+		document.addEventListener( 'mousedown', self.listener.bind( self ), self.listenerOptions );
+		document.addEventListener( 'touchstart', self.listener.bind( self ), self.listenerOptions );
+	}
+
+	/**
+	 * Event listener. Processes when near or on a valid <a> hyperlink.
+	 *
+	 * @param Event event Event instance.
+	 */
+	listener( event ) {
+		const linkElem = event.target.closest( 'a' );
+		const url      = this._prepareUrl( linkElem );
+		if ( null === url ) {
+			return;
+		}
+
+		switch ( event.type ) {
+			case 'mousedown':
+			case 'touchstart':
+				this._addPrefetchLink( url );
+				break;
+			case 'mouseover':
+				this._earlyPrefetch( linkElem, url, 'mouseout' );
+		}
+	}
+
+	/**
+	 *
+	 * @private
+	 *
+	 * @param Element|null linkElem
+	 * @param object url
+	 * @param string resetEvent
+	 */
+	_earlyPrefetch( linkElem, url, resetEvent ) {
+		const doPrefetch = () => {
+			falseTrigger = null;
+
+			// Start the rate throttle: 1 sec timeout.
+			if ( 0 === this.numOnHover ) {
+				setTimeout( () => this.numOnHover = 0, 1000 );
+			}
+			// Bail out when exceeding the rate throttle.
+			else if ( this.numOnHover > this.config.rateThrottle ) {
+				return;
+			}
+
+			this.numOnHover++;
+			this._addPrefetchLink( url );
+		};
+
+		// Delay to avoid false triggers for hover/touch/tap.
+		let falseTrigger = setTimeout( doPrefetch, this.config.onHoverDelay );
+
+		// On reset event, reset the false trigger timer.
+		const reset = () => {
+			linkElem.removeEventListener( resetEvent, reset, { passive: true } );
+			if ( null === falseTrigger ) {
+				return;
+			}
+
+			clearTimeout( falseTrigger );
+			falseTrigger = null;
+		};
+		linkElem.addEventListener( resetEvent, reset, { passive: true } );
+	}
+
+	/**
+	 * Adds a <link rel="prefetch" href="<url>"> for the given URL.
+	 *
+	 * @param string url The Given URL to prefetch.
+	 */
+	_addPrefetchLink( url ) {
+		this.prefetched.add( url.href );
+
+		return new Promise( ( resolve, reject ) => {
+			const elem   = document.createElement( 'link' );
+			elem.rel     = 'prefetch';
+			elem.href    = url.href;
+			elem.onload  = resolve;
+			elem.onerror = reject;
+
+			document.head.appendChild( elem );
+		} ).catch(() => {
+			// ignore and continue.
+		});
+	}
+
+	/**
+	 * Prepares the target link's URL.
+	 *
+	 * @private
+	 *
+	 * @param Element|null linkElem Instance of the link element.
+	 * @returns {null|*}
+	 */
+	_prepareUrl( linkElem ) {
+		if (
+			null === linkElem
+			||
+			typeof linkElem !== 'object'
+			||
+			! 'href' in linkElem
+			||
+			// Link prefetching only works on http/https protocol.
+			[ 'http:', 'https:' ].indexOf( linkElem.protocol ) === -1
+		) {
+			return null;
+		}
+
+		const origin   = linkElem.href.substring( 0, this.config.siteUrl.length );
+		const pathname = this._getPathname( linkElem.href, origin );
+		const url      = {
+			original: linkElem.href,
+			protocol: linkElem.protocol,
+			origin: origin,
+			pathname: pathname,
+			href: origin + pathname
+		};
+
+		return this._isLinkOk( url ) ? url : null;
+	}
+
+	/**
+	 * Gets the URL's pathname. Note: ensures the pathname matches the permalink structure.
+	 *
+	 * @private
+	 *
+	 * @param object url Instance of the URL.
+	 * @param string origin The target link href's origin.
+	 * @returns {string}
+	 */
+	_getPathname( url, origin ) {
+		let pathname = origin
+			? url.substring( this.config.siteUrl.length )
+			: url;
+
+		if ( ! pathname.startsWith( '/' ) ) {
+			pathname = '/' + pathname;
+		}
+
+		if ( this._shouldAddTrailingSlash( pathname ) ) {
+			return pathname + '/';
+		}
+
+		return pathname;
+	}
+
+	_shouldAddTrailingSlash( pathname ) {
+		return (
+			this.config.usesTrailingSlash
+			&&
+			! pathname.endsWith( '/' )
+			&&
+			! this.regex.fileExt.test( pathname )
+		);
+	}
+
+	/**
+	 * Checks if the given link element is okay to process.
+	 *
+	 * @private
+	 *
+	 * @param object url URL parts object.
+	 *
+	 * @returns {boolean}
+	 */
+	_isLinkOk( url ) {
+		if ( null === url || typeof url !== 'object' ) {
+			return false;
+		}
+
+		return (
+			! this.prefetched.has( url.href )
+			&&
+			url.origin === this.config.siteUrl // is an internal document.
+			&&
+			url.href.indexOf( '?' ) === -1 // not a query string.
+			&&
+			url.href.indexOf( '#' ) === -1 // not an anchor.
+			&&
+			! this.regex.excludeUris.test( url.href ) // not excluded.
+			&&
+			! this.regex.images.test( url.href ) // not an image.
+		);
+	}
+
+	/**
+	 * Named static constructor to encapsulate how to create the object.
+	 */
+	static run() {
+		// Bail out if the configuration not passed from the server.
+		if ( typeof RocketPreloadLinksConfig === 'undefined' ) {
+			return;
+		}
+
+		const browser  = new RocketBrowserCompatibilityChecker( {
+			capture: true,
+			passive: true
+		} );
+		const instance = new RocketPreloadLinks( browser, RocketPreloadLinksConfig );
+		instance.init();
+	}
+}
+
+RocketPreloadLinks.run();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-extra">
+/* <![CDATA[ */
+var rocket_lazyload_css_data = {"threshold":"300"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket_lazyload_css-js-after">
+/* <![CDATA[ */
+!function o(n,c,a){function u(t,e){if(!c[t]){if(!n[t]){var r="function"==typeof require&&require;if(!e&&r)return r(t,!0);if(s)return s(t,!0);throw(e=new Error("Cannot find module '"+t+"'")).code="MODULE_NOT_FOUND",e}r=c[t]={exports:{}},n[t][0].call(r.exports,function(e){return u(n[t][1][e]||e)},r,r.exports,o,n,c,a)}return c[t].exports}for(var s="function"==typeof require&&require,e=0;e<a.length;e++)u(a[e]);return u}({1:[function(e,t,r){"use strict";{const c="undefined"==typeof rocket_pairs?[]:rocket_pairs,a=(("undefined"==typeof rocket_excluded_pairs?[]:rocket_excluded_pairs).map(t=>{var e=t.selector;document.querySelectorAll(e).forEach(e=>{e.setAttribute("data-rocket-lazy-bg-"+t.hash,"excluded")})}),document.querySelector("#wpr-lazyload-bg-container"));var o=rocket_lazyload_css_data.threshold||300;const u=new IntersectionObserver(e=>{e.forEach(t=>{t.isIntersecting&&c.filter(e=>t.target.matches(e.selector)).map(t=>{var e;t&&((e=document.createElement("style")).textContent=t.style,a.insertAdjacentElement("afterend",e),t.elements.forEach(e=>{u.unobserve(e),e.setAttribute("data-rocket-lazy-bg-"+t.hash,"loaded")}))})})},{rootMargin:o+"px"});function n(){0<(0<arguments.length&&void 0!==arguments[0]?arguments[0]:[]).length&&c.forEach(t=>{try{document.querySelectorAll(t.selector).forEach(e=>{"loaded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&"excluded"!==e.getAttribute("data-rocket-lazy-bg-"+t.hash)&&(u.observe(e),(t.elements||=[]).push(e))})}catch(e){console.error(e)}})}n(),function(){const r=window.MutationObserver;return function(e,t){if(e&&1===e.nodeType)return(t=new r(t)).observe(e,{attributes:!0,childList:!0,subtree:!0}),t}}()(document.querySelector("body"),n)}},{}]},{},[1]);
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://traidmod.net/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.app.min.js?ver=1.6.9" id="rtrar.app-js"></script>
+<div  class="remodal" data-remodal-id="report-post" role="dialog" aria-labelledby="report-post-modal-title" aria-describedby="report-post-modal-desc">
+    <a href="#closedialog" data-remodal-action="close" class="remodal-close" aria-label="Close"></a>
+    <div >
+        <h2 id="report-post-modal-title">طلب تحديث</h2>
+        <p id="report-post-modal-desc">
+                    &laquo;<b><span id="report-post-title">&nbsp;</span></b>&raquo;
+                </p>
+                <p id="report-post-modal-msg">&nbsp;</p>
+        <form class="report-post-form" id="report-post-form">
+            <input type="hidden" name="subaction" value="report-post" />
+            <input type="hidden" name="report_post_id" id="report-post-id" value="0" />
+            <div class="report-post-half-left">
+                <p>الإسم:</p>
+                <input class="report-post-control" id="report_post_name" name="report_post_name" />
+            </div>
+            <div class="report-post-half-right">
+                <p>البريد الإلكتروني:</p>
+                <input class="report-post-control" id="report_post_email" name="report_post_email" />
+            </div>
+            <div style="clear: both;"></div>
+            <div>
+                <p>برجاء إضافة أي معلومات قد تساعدنا في تحديث التطبيق المطلوب:</p>
+                <textarea class="report-post-control" rows="5" id="report_post_msg" name="report_post_msg"></textarea>
+            </div>
+            <div class="report-post-half-left">
+                        </div>
+            <div class="report-post-half-right">
+                        </div>
+            <div style="clear: both;"></div>
+        </form>
+            </div>
+        <div  id="report-post-buttons">
+        <br />
+        <a href="#closedialog" data-remodal-action="cancel" class="remodal-cancel">الغاء</a>
+        <a id="report-post-submit" class="remodal-confirm">ابلاغ</a>
+    </div>
+    </div>
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+jQuery(document).ready(function($)
+{
+    window.REMODAL_GLOBALS =
+    {
+        NAMESPACE: 'report-post',
+        DEFAULTS:
+        {
+            hashTracking: false,
+            closeOnConfirm: false
+        }
+    }
+    // add after
+    var _remodal = $('[data-remodal-id=report-post]').remodal({modifier: 'with-red-theme', hashTracking: false, closeOnConfirm: false});
+    $(document).on('opened', '.remodal', function ()
+    {
+        $('#report-post-buttons').slideDown(1000);
+        $('#report-post-form').slideDown(1000, function()
+        {
+            if ($('#report_post_name').val()=='')
+            {
+                $('#report_post_name').focus();
+            }
+            else
+            {
+                $('#report_post_msg').focus();
+            }
+        });
+    });
+    $('#report-post-submit').click(function(e)
+    {
+        e.preventDefault();
+        $('#report-post-modal-desc').css('display', 'block');
+        $('#report-post-modal-msg').css('display', 'none');
+        $('.report-post-control').removeClass('report-post-control-error');
+        //_remodal.close();
+        $.post('https://traidmod.net/wp-admin/admin-ajax.php?action=wp_report_post', $('#report-post-form').serialize(), function(data)
+        {
+            if (data.errmsg)
+            {
+                $('#report-post-modal-desc').css('display', 'none');
+                $('#report-post-modal-msg').css('display', 'block');
+                $('#report-post-modal-msg').html(data.errmsg);                
+                $('#report-post-modal-msg').addClass('report-post-error');
+                $('#report-post-modal-msg').removeClass('report-post-success');
+                if (data.field)
+                {
+                    $('#'+data.field).addClass('report-post-control-error');
+                    $('#'+data.field).focus();
+                }
+                else
+                {
+                    $('#report_post_msg').focus();
+                }
+            }
+            if (data.msg)
+            {
+                $('#report-post-modal-desc').css('display', 'none');
+                $('#report-post-modal-msg').css('display', 'block');
+                $('#report-post-modal-msg').html(data.msg);                
+                $('#report-post-modal-msg').removeClass('report-post-error');
+                $('#report-post-modal-msg').addClass('report-post-success');
+                $('#report_post_msg').val('');
+                $('#report-post-form').slideUp(1000);
+                $('#report-post-buttons').slideUp(1000);
+            }
+        }, 'json');
+
+    });
+    $('.report-post-link,.report-post-button,.report-post-custom-link,.report-post-custom-button').click(function(e)
+    {
+        e.preventDefault();
+        $('#report-post-modal-desc').css('display', 'block');
+        $('#report-post-modal-msg').css('display', 'none');
+        $('.report-post-control').removeClass('report-post-control-error');
+        var post_id=0;
+        if ($(this).attr('post-id') != undefined)
+        {
+            post_id = parseInt($(this).attr('post-id')); 
+        }
+        else
+        {
+            var article_id = $(this).closest('article').attr('id');
+            if (article_id != undefined)
+            {
+                var post_id = parseInt(article_id.replace( /^\D+/g, ''));
+
+            }
+        }
+        $('#report-post-id').val(post_id);
+        $.post('https://traidmod.net/wp-admin/admin-ajax.php?action=wp_report_post', {subaction: 'get-post', post_id: post_id}, function(data)
+        {
+            $('#report-post-title').html(data.post_title);
+            _remodal.open();
+        }, 'json');
+    });
+});
+</script>
+<script>window.lazyLoadOptions = [{
+                elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_loaded: function(element) {
+                    if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+                        if (element.classList.contains("lazyloaded") ) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }},{
+				elements_selector: ".rocket-lazyload",
+				data_src: "lazy-src",
+				data_srcset: "lazy-srcset",
+				data_sizes: "lazy-sizes",
+				class_loading: "lazyloading",
+				class_loaded: "lazyloaded",
+				threshold: 300,
+			}];
+        window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance;
+
+            if (window.MutationObserver) {
+                var observer = new MutationObserver(function(mutations) {
+                    var image_count = 0;
+                    var iframe_count = 0;
+                    var rocketlazy_count = 0;
+
+                    mutations.forEach(function(mutation) {
+                        for (var i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
+                                continue;
+                            }
+
+                            if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') {
+                                continue;
+                            }
+
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG";
+                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
+                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');
+
+                            image_count += images.length;
+			                iframe_count += iframes.length;
+			                rocketlazy_count += rocket_lazy.length;
+
+                            if(is_image){
+                                image_count += 1;
+                            }
+
+                            if(is_iframe){
+                                iframe_count += 1;
+                            }
+                        }
+                    } );
+
+                    if(image_count > 0 || iframe_count > 0 || rocketlazy_count > 0){
+                        lazyLoadInstance.update();
+                    }
+                } );
+
+                var b      = document.getElementsByTagName("body")[0];
+                var config = { childList: true, subtree: true };
+
+                observer.observe(b, config);
+            }
+        }, false);</script><script data-no-minify="1" async src="https://traidmod.net/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi_webp/ID/hqdefault.webp" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=["Traidmod-Logo-1.webp","id=\"logo-img\"","logo-img"];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi_webp/ID/hqdefault.webp'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script>
+
 </body>
 </html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->
+<!-- plugin=object-cache-pro client=phpredis metric#hits=3734 metric#misses=90 metric#hit-ratio=97.7 metric#bytes=2907799 metric#prefetches=287 metric#store-reads=96 metric#store-writes=55 metric#store-hits=299 metric#store-misses=81 metric#sql-queries=67 metric#ms-total=186.67 metric#ms-cache=26.86 metric#ms-cache-avg=0.1791 metric#ms-cache-ratio=14.4 -->
